@@ -1,0 +1,118 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "252a2fd6-58d4-11ea-b5fa-a683e74f7416",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "252a2c8e-58d4-11ea-b5fa-a683e74f7416",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "ROTATION",
+                    "nodegroup_id": "252a2dba-58d4-11ea-b5fa-a683e74f7416",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "252a2fd6-58d4-11ea-b5fa-a683e74f7416",
+                    "config": {
+                        "defaultValue": null,
+                        "format": null,
+                        "label": "Map Symbol Rotation",
+                        "max": null,
+                        "min": null,
+                        "placeholder": "Enter number",
+                        "precision": null,
+                        "prefix": null,
+                        "step": null,
+                        "suffix": null,
+                        "width": "100%"
+                    },
+                    "id": "252a3094-58d4-11ea-b5fa-a683e74f7416",
+                    "label": "Map Symbol Rotation",
+                    "node_id": "252a2dba-58d4-11ea-b5fa-a683e74f7416",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "",
+            "edges": [],
+            "functions_x_graphs": [],
+            "graphid": "252a2c8e-58d4-11ea-b5fa-a683e74f7416",
+            "iconclass": "fa fa-fire-extinguisher",
+            "is_editable": true,
+            "isactive": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": "ROTATION",
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "252a2dba-58d4-11ea-b5fa-a683e74f7416",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "config": null,
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "252a2c8e-58d4-11ea-b5fa-a683e74f7416",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "ROTATION",
+                    "nodegroup_id": "252a2dba-58d4-11ea-b5fa-a683e74f7416",
+                    "nodeid": "252a2dba-58d4-11ea-b5fa-a683e74f7416",
+                    "ontologyclass": null,
+                    "parentproperty": "",
+                    "sortorder": 0
+                }
+            ],
+            "ontology_id": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "config": null,
+                "datatype": "number",
+                "description": null,
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "252a2c8e-58d4-11ea-b5fa-a683e74f7416",
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "ROTATION",
+                "nodegroup_id": "252a2dba-58d4-11ea-b5fa-a683e74f7416",
+                "nodeid": "252a2dba-58d4-11ea-b5fa-a683e74f7416",
+                "ontologyclass": null,
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "",
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ]
+}

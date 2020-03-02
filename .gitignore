@@ -1,0 +1,13 @@
+*.pyc
+esri_utils/media/packages
+esri_utils/logs/*.log
+esri_utils/uploadedfiles
+esri_utils/ontologies/*.xml
+arches.log
+*.sublime*
+esri_utils/settings_local.py
+.DS_Store
+*.djcache
+esri_utils/node_modules
+.vscode/
+Procfile
