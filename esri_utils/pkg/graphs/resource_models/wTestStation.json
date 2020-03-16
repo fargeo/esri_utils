@@ -106,35 +106,6 @@
             ],
             "cards_x_nodes_x_widgets": [
                 {
-                    "card_id": "38c8735e-5a8c-11ea-92c4-acde48001122",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "GlobalID",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "38c8764c-5a8c-11ea-92c4-acde48001122",
-                    "label": "GlobalID",
-                    "node_id": "38c87584-5a8c-11ea-92c4-acde48001122",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "36bdfdf4-5a8c-11ea-92c4-acde48001122",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Enabled"
-                    },
-                    "id": "36be02d6-5a8c-11ea-92c4-acde48001122",
-                    "label": "Enabled",
-                    "node_id": "36be01be-5a8c-11ea-92c4-acde48001122",
-                    "sortorder": 3,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000006"
-                },
-                {
                     "card_id": "3a1d3712-5a8c-11ea-92c4-acde48001122",
                     "config": {
                         "basemap": "streets",
@@ -180,20 +151,33 @@
                     "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
                 {
-                    "card_id": "3485a028-5a8c-11ea-92c4-acde48001122",
+                    "card_id": "38c8735e-5a8c-11ea-92c4-acde48001122",
                     "config": {
-                        "defaultValue": null,
-                        "label": "Last Editor",
+                        "defaultValue": "",
+                        "label": "GlobalID",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "width": "100%"
                     },
-                    "id": "655df8f8-5a8c-11ea-92c4-acde48001122",
-                    "label": "Last Editor",
-                    "node_id": "3485a320-5a8c-11ea-92c4-acde48001122",
+                    "id": "38c8764c-5a8c-11ea-92c4-acde48001122",
+                    "label": "GlobalID",
+                    "node_id": "38c87584-5a8c-11ea-92c4-acde48001122",
                     "sortorder": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "36bdfdf4-5a8c-11ea-92c4-acde48001122",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Enabled"
+                    },
+                    "id": "36be02d6-5a8c-11ea-92c4-acde48001122",
+                    "label": "Enabled",
+                    "node_id": "36be01be-5a8c-11ea-92c4-acde48001122",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000006"
                 },
                 {
                     "card_id": "3485a028-5a8c-11ea-92c4-acde48001122",
@@ -230,10 +214,59 @@
                     "sortorder": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "3485a028-5a8c-11ea-92c4-acde48001122",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Last Editor",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "655df8f8-5a8c-11ea-92c4-acde48001122",
+                    "label": "Last Editor",
+                    "node_id": "3485a320-5a8c-11ea-92c4-acde48001122",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ],
             "color": null,
-            "config": {},
+            "config": {
+                "basemap": "streets",
+                "bearing": 0,
+                "centerX": -122.3979693,
+                "centerY": 37.79,
+                "featureColor": "#FF0000",
+                "featureEditingDisabled": true,
+                "featureLineWidth": 1,
+                "featurePointSize": 3,
+                "geocodePlaceholder": "Search",
+                "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                "geocoderVisible": true,
+                "geometryTypes": [
+                    {
+                        "id": "Point",
+                        "text": "Point"
+                    },
+                    {
+                        "id": "Line",
+                        "text": "Line"
+                    },
+                    {
+                        "id": "Polygon",
+                        "text": "Polygon"
+                    }
+                ],
+                "mapControlsHidden": false,
+                "maxZoom": 20,
+                "minZoom": 0,
+                "overlayConfigs": [],
+                "overlayOpacity": 0,
+                "pitch": 0,
+                "zoom": 10
+            },
             "deploymentdate": null,
             "deploymentfile": null,
             "description": "",
@@ -294,21 +327,21 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "1d060974-5a8c-11ea-92c4-acde48001122",
-                    "edgeid": "38c87b10-5a8c-11ea-92c4-acde48001122",
-                    "graph_id": "1d060b9a-5a8c-11ea-92c4-acde48001122",
-                    "name": null,
-                    "ontologyproperty": null,
-                    "rangenode_id": "38c87138-5a8c-11ea-92c4-acde48001122"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "38c87138-5a8c-11ea-92c4-acde48001122",
                     "edgeid": "38c87994-5a8c-11ea-92c4-acde48001122",
                     "graph_id": "1d060b9a-5a8c-11ea-92c4-acde48001122",
                     "name": null,
                     "ontologyproperty": null,
                     "rangenode_id": "38c87584-5a8c-11ea-92c4-acde48001122"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1d060974-5a8c-11ea-92c4-acde48001122",
+                    "edgeid": "38c87b10-5a8c-11ea-92c4-acde48001122",
+                    "graph_id": "1d060b9a-5a8c-11ea-92c4-acde48001122",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "38c87138-5a8c-11ea-92c4-acde48001122"
                 },
                 {
                     "description": null,
@@ -333,7 +366,7 @@
             "graphid": "1d060b9a-5a8c-11ea-92c4-acde48001122",
             "iconclass": "",
             "is_editable": true,
-            "isactive": false,
+            "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
             "name": "wTestStation",
@@ -611,7 +644,7 @@
             },
             "slug": null,
             "subtitle": "Water Test Stations",
-            "template_id": "50000000-0000-0000-0000-000000000001",
+            "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
     ]
