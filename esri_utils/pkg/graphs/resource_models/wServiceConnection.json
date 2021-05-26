@@ -49,7 +49,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Installation & Updates",
                     "nodegroup_id": "9db38b94-5872-11ea-b5fa-a683e74f7416",
                     "sortorder": 3,
@@ -107,7 +107,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Status",
                     "nodegroup_id": "9d0b032a-5872-11ea-b5fa-a683e74f7416",
                     "sortorder": 2,
@@ -168,7 +168,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Identifications",
                     "nodegroup_id": "9bca0ef2-5872-11ea-b5fa-a683e74f7416",
                     "sortorder": 0,
@@ -201,10 +201,36 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Location",
                     "nodegroup_id": "9e4c967c-5872-11ea-b5fa-a683e74f7416",
                     "sortorder": 5,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "ddb535a2-bdd5-11eb-92a7-aae9fe8789ac",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "ddb535a2-bdd5-11eb-92a7-aae9fe8789ac",
+                            "constraintid": "735694c8-6faa-48cf-890c-e015d50b1f7e",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "803741dc-5872-11ea-b5fa-a683e74f7416",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Activity",
+                    "nodegroup_id": "ddb533cc-bdd5-11eb-92a7-aae9fe8789ac",
+                    "sortorder": null,
                     "visible": true
                 }
             ],
@@ -221,6 +247,105 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000006"
+                },
+                {
+                    "card_id": "9c68c3b2-5872-11ea-b5fa-a683e74f7416",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Metered Service",
+                        "subtitle": "Click to switch"
+                    },
+                    "id": "056c319a-5874-11ea-b5fa-a683e74f7416",
+                    "label": "Metered Service",
+                    "node_id": "a563bfca-5873-11ea-b5fa-a683e74f7416",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000006"
+                },
+                {
+                    "card_id": "9c68c3b2-5872-11ea-b5fa-a683e74f7416",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Service Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "056cbe76-5874-11ea-b5fa-a683e74f7416",
+                    "label": "Service Type",
+                    "node_id": "a4dd26cc-5873-11ea-b5fa-a683e74f7416",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "9db38db0-5872-11ea-b5fa-a683e74f7416",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": null,
+                        "label": "Install Date",
+                        "maxDate": null,
+                        "minDate": null,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "351cc274-5874-11ea-b5fa-a683e74f7416",
+                    "label": "Install Date",
+                    "node_id": "9db38ee6-5872-11ea-b5fa-a683e74f7416",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "9db38db0-5872-11ea-b5fa-a683e74f7416",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": null,
+                        "label": "Last Update Date",
+                        "maxDate": null,
+                        "minDate": null,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "351d660c-5874-11ea-b5fa-a683e74f7416",
+                    "label": "Last Update Date",
+                    "node_id": "9db391b6-5872-11ea-b5fa-a683e74f7416",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "9db38db0-5872-11ea-b5fa-a683e74f7416",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Last Editor",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "351dca8e-5874-11ea-b5fa-a683e74f7416",
+                    "label": "Last Editor",
+                    "node_id": "9db39468-5872-11ea-b5fa-a683e74f7416",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "3c8b731c-5873-11ea-b5fa-a683e74f7416",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Account Number",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "65563d0e-5873-11ea-b5fa-a683e74f7416",
+                    "label": "Account Number",
+                    "node_id": "440772d0-5873-11ea-b5fa-a683e74f7416",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "9d0b056e-5872-11ea-b5fa-a683e74f7416",
@@ -291,6 +416,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5083af96-5874-11ea-b5fa-a683e74f7416",
@@ -301,41 +427,13 @@
                     "widget_id": "10000000-0000-0000-0000-000000000008"
                 },
                 {
-                    "card_id": "9c68c3b2-5872-11ea-b5fa-a683e74f7416",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Metered Service",
-                        "subtitle": "Click to switch"
-                    },
-                    "id": "056c319a-5874-11ea-b5fa-a683e74f7416",
-                    "label": "Metered Service",
-                    "node_id": "a563bfca-5873-11ea-b5fa-a683e74f7416",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000006"
-                },
-                {
-                    "card_id": "9c68c3b2-5872-11ea-b5fa-a683e74f7416",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Service Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "056cbe76-5874-11ea-b5fa-a683e74f7416",
-                    "label": "Service Type",
-                    "node_id": "a4dd26cc-5873-11ea-b5fa-a683e74f7416",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
                     "card_id": "9bca1122-5872-11ea-b5fa-a683e74f7416",
                     "config": {
                         "defaultValue": null,
                         "label": "Facility Identifier",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9bca13d4-5872-11ea-b5fa-a683e74f7416",
@@ -352,6 +450,7 @@
                         "label": "GlobalID",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9bca141a-5872-11ea-b5fa-a683e74f7416",
@@ -368,6 +467,7 @@
                         "label": "Location Identifier",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5eea5bc0-5874-11ea-b5fa-a683e74f7416",
@@ -384,79 +484,12 @@
                         "label": "Location Description",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9e4c9b54-5872-11ea-b5fa-a683e74f7416",
                     "label": "Location Description",
                     "node_id": "9e4c9adc-5872-11ea-b5fa-a683e74f7416",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "9db38db0-5872-11ea-b5fa-a683e74f7416",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": null,
-                        "label": "Install Date",
-                        "maxDate": null,
-                        "minDate": null,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "351cc274-5874-11ea-b5fa-a683e74f7416",
-                    "label": "Install Date",
-                    "node_id": "9db38ee6-5872-11ea-b5fa-a683e74f7416",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
-                    "card_id": "9db38db0-5872-11ea-b5fa-a683e74f7416",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": null,
-                        "label": "Last Update Date",
-                        "maxDate": null,
-                        "minDate": null,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "351d660c-5874-11ea-b5fa-a683e74f7416",
-                    "label": "Last Update Date",
-                    "node_id": "9db391b6-5872-11ea-b5fa-a683e74f7416",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
-                    "card_id": "9db38db0-5872-11ea-b5fa-a683e74f7416",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Last Editor",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "351dca8e-5874-11ea-b5fa-a683e74f7416",
-                    "label": "Last Editor",
-                    "node_id": "9db39468-5872-11ea-b5fa-a683e74f7416",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "3c8b731c-5873-11ea-b5fa-a683e74f7416",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Account Number",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "65563d0e-5873-11ea-b5fa-a683e74f7416",
-                    "label": "Account Number",
-                    "node_id": "440772d0-5873-11ea-b5fa-a683e74f7416",
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
@@ -497,6 +530,19 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
+                },
+                {
+                    "card_id": "ddb535a2-bdd5-11eb-92a7-aae9fe8789ac",
+                    "config": {
+                        "label": "Activity",
+                        "placeholder": ""
+                    },
+                    "id": "ddb53638-bdd5-11eb-92a7-aae9fe8789ac",
+                    "label": "Activity",
+                    "node_id": "ddb533cc-bdd5-11eb-92a7-aae9fe8789ac",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 }
             ],
             "color": null,
@@ -744,17 +790,32 @@
                     "name": null,
                     "ontologyproperty": null,
                     "rangenode_id": "d1967a6a-5873-11ea-b5fa-a683e74f7416"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "80373fb6-5872-11ea-b5fa-a683e74f7416",
+                    "edgeid": "ddb53818-bdd5-11eb-92a7-aae9fe8789ac",
+                    "graph_id": "803741dc-5872-11ea-b5fa-a683e74f7416",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "ddb533cc-bdd5-11eb-92a7-aae9fe8789ac"
                 }
             ],
             "functions_x_graphs": [],
             "graphid": "803741dc-5872-11ea-b5fa-a683e74f7416",
             "iconclass": "fa fa-university",
-            "is_editable": true,
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
             "name": "wServiceConnection",
             "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "ddb533cc-bdd5-11eb-92a7-aae9fe8789ac",
+                    "parentnodegroup_id": null
+                },
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
@@ -835,7 +896,7 @@
                     "nodeid": "9d0b088e-5872-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -856,7 +917,7 @@
                     "nodeid": "9d0b0960-5872-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -874,7 +935,7 @@
                     "nodeid": "9d0b032a-5872-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -892,7 +953,7 @@
                     "nodeid": "3c8b4310-5873-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -910,7 +971,48 @@
                     "nodeid": "925c41ae-5873-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 6
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "addToMap": true,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "haloRadius": 6,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(20,2,2,0.5)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "radius": 4,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "803741dc-5872-11ea-b5fa-a683e74f7416",
+                    "is_collector": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "geometry",
+                    "nodegroup_id": "9e4c967c-5872-11ea-b5fa-a683e74f7416",
+                    "nodeid": "9e4c99e2-5872-11ea-b5fa-a683e74f7416",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -964,7 +1066,7 @@
                     "nodeid": "9bca1352-5872-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1023,10 +1125,12 @@
                     "nodeid": "9d0b07b2-5872-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -1044,7 +1148,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -1095,7 +1201,7 @@
                     "nodeid": "9e4c967c-5872-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 5
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1131,7 +1237,7 @@
                     "nodeid": "9c68c10a-5872-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1229,45 +1335,29 @@
                     "nodeid": "9db38b94-5872-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "config": {
-                        "addToMap": false,
-                        "advancedStyle": "",
-                        "advancedStyling": false,
-                        "clusterDistance": 20,
-                        "clusterMaxZoom": 5,
-                        "clusterMinPoints": 3,
-                        "fillColor": "rgba(130, 130, 130, 0.5)",
-                        "haloRadius": 4,
-                        "haloWeight": 4,
-                        "layerActivated": true,
-                        "layerIcon": "",
-                        "layerLegend": "",
-                        "layerName": "",
-                        "lineColor": "rgba(130, 130, 130, 0.7)",
-                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "outlineColor": "rgba(200, 200, 200, 0.7)",
-                        "outlineWeight": 2,
-                        "pointColor": "rgba(130, 130, 130, 0.7)",
-                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "radius": 2,
-                        "simplification": 0.3,
-                        "weight": 2
+                        "graphs": [
+                            {
+                                "graphid": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                                "name": "Repair or Maintenance Activity"
+                            }
+                        ]
                     },
-                    "datatype": "geojson-feature-collection",
-                    "description": null,
+                    "datatype": "resource-instance-list",
+                    "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "803741dc-5872-11ea-b5fa-a683e74f7416",
-                    "is_collector": false,
-                    "isrequired": true,
+                    "is_collector": true,
+                    "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "geometry",
-                    "nodegroup_id": "9e4c967c-5872-11ea-b5fa-a683e74f7416",
-                    "nodeid": "9e4c99e2-5872-11ea-b5fa-a683e74f7416",
+                    "name": "Activity",
+                    "nodegroup_id": "ddb533cc-bdd5-11eb-92a7-aae9fe8789ac",
+                    "nodeid": "ddb533cc-bdd5-11eb-92a7-aae9fe8789ac",
                     "ontologyclass": null,
                     "parentproperty": null,
                     "sortorder": 0
@@ -1298,5 +1388,11 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.1 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "d084e2885 2021-04-19 09:10:08 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
 }

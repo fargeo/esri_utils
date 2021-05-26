@@ -1,0 +1,454 @@
+{
+    "graph": [
+        {
+            "author": " ",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "a5b6dc92-bdd4-11eb-92a7-aae9fe8789ac",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "a5b6dc92-bdd4-11eb-92a7-aae9fe8789ac",
+                            "constraintid": "73bd3bbb-22c8-4fba-90c8-2f019e1b60e0",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "a5b6dc92-bdd4-11eb-92a7-aae9fe8789ac",
+                            "constraintid": "bbb90fea-1415-4a8b-8d3e-7447b29d8b2b",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": false,
+                    "name": "Activity",
+                    "nodegroup_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "a5b6dc92-bdd4-11eb-92a7-aae9fe8789ac",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Activity Type",
+                        "placeholder": "Select an option"
+                    },
+                    "id": "392b2e24-bdd5-11eb-92a7-aae9fe8789ac",
+                    "label": "Activity Type",
+                    "node_id": "b28a3478-bdd4-11eb-92a7-aae9fe8789ac",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000018"
+                },
+                {
+                    "card_id": "a5b6dc92-bdd4-11eb-92a7-aae9fe8789ac",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Activity Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "392beb20-bdd5-11eb-92a7-aae9fe8789ac",
+                    "label": "Activity Date",
+                    "node_id": "c7106c0a-bdd4-11eb-92a7-aae9fe8789ac",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "a5b6dc92-bdd4-11eb-92a7-aae9fe8789ac",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "label": "Time Required",
+                        "max": "",
+                        "min": "",
+                        "placeholder": "Enter number",
+                        "precision": "",
+                        "prefix": "",
+                        "step": "",
+                        "suffix": "",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "392c4944-bdd5-11eb-92a7-aae9fe8789ac",
+                    "label": "Time Required",
+                    "node_id": "d75dc7c4-bdd4-11eb-92a7-aae9fe8789ac",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "a5b6dc92-bdd4-11eb-92a7-aae9fe8789ac",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Person",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "392ca68c-bdd5-11eb-92a7-aae9fe8789ac",
+                    "label": "Person",
+                    "node_id": "e94b45b0-bdd4-11eb-92a7-aae9fe8789ac",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "a5b6dc92-bdd4-11eb-92a7-aae9fe8789ac",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Activity Notes",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "392d0848-bdd5-11eb-92a7-aae9fe8789ac",
+                    "label": "Activity Notes",
+                    "node_id": "0cd3d344-bdd5-11eb-92a7-aae9fe8789ac",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "a5b6dc92-bdd4-11eb-92a7-aae9fe8789ac",
+                    "config": {
+                        "acceptedFiles": "",
+                        "label": "Image",
+                        "maxFilesize": "200",
+                        "rerender": true
+                    },
+                    "id": "392d9948-bdd5-11eb-92a7-aae9fe8789ac",
+                    "label": "Image",
+                    "node_id": "23ee2b10-bdd5-11eb-92a7-aae9fe8789ac",
+                    "sortorder": 5,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000019"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "",
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "854a2c66-bdd4-11eb-92a7-aae9fe8789ac",
+                    "edgeid": "a5b72a30-bdd4-11eb-92a7-aae9fe8789ac",
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "edgeid": "b28a36a8-bdd4-11eb-92a7-aae9fe8789ac",
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "b28a3478-bdd4-11eb-92a7-aae9fe8789ac"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "edgeid": "0cd3d538-bdd5-11eb-92a7-aae9fe8789ac",
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "0cd3d344-bdd5-11eb-92a7-aae9fe8789ac"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "edgeid": "c7106e76-bdd4-11eb-92a7-aae9fe8789ac",
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "c7106c0a-bdd4-11eb-92a7-aae9fe8789ac"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "edgeid": "d75dca4e-bdd4-11eb-92a7-aae9fe8789ac",
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "d75dc7c4-bdd4-11eb-92a7-aae9fe8789ac"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "edgeid": "23ee2d40-bdd5-11eb-92a7-aae9fe8789ac",
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "23ee2b10-bdd5-11eb-92a7-aae9fe8789ac"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "edgeid": "e94b47ae-bdd4-11eb-92a7-aae9fe8789ac",
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "e94b45b0-bdd4-11eb-92a7-aae9fe8789ac"
+                }
+            ],
+            "functions_x_graphs": [
+                {
+                    "config": {
+                        "description": {
+                            "nodegroup_id": "",
+                            "string_template": ""
+                        },
+                        "map_popup": {
+                            "nodegroup_id": "",
+                            "string_template": ""
+                        },
+                        "name": {
+                            "nodegroup_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                            "string_template": " <Activity Type> | <Activity Date> | <Person>"
+                        },
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "60000000-0000-0000-0000-000000000001",
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "id": "3e7a4d78-bdd6-11eb-92a7-aae9fe8789ac"
+                }
+            ],
+            "graphid": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+            "iconclass": "",
+            "is_editable": false,
+            "isactive": true,
+            "isresource": true,
+            "jsonldcontext": null,
+            "name": "Repair or Maintenance Activity",
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Repair or Maintenance Activity",
+                    "nodegroup_id": null,
+                    "nodeid": "854a2c66-bdd4-11eb-92a7-aae9fe8789ac",
+                    "ontologyclass": null,
+                    "parentproperty": "",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Activity Notes",
+                    "nodegroup_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "nodeid": "0cd3d344-bdd5-11eb-92a7-aae9fe8789ac",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Activity",
+                    "nodegroup_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "nodeid": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "4cb12250-9391-4145-bfbb-3f382fe017aa",
+                                "selected": false,
+                                "text": "Repair"
+                            },
+                            {
+                                "id": "9f1cde7e-4e8a-4b78-a022-b3e195f42630",
+                                "selected": false,
+                                "text": "Maintenance"
+                            },
+                            {
+                                "id": "2925cd20-d3b3-4a0e-873e-2009fbc9b529",
+                                "selected": false,
+                                "text": "Other"
+                            }
+                        ]
+                    },
+                    "datatype": "domain-value-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Activity Type",
+                    "nodegroup_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "nodeid": "b28a3478-bdd4-11eb-92a7-aae9fe8789ac",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 4
+                },
+                {
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Activity Date",
+                    "nodegroup_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "nodeid": "c7106c0a-bdd4-11eb-92a7-aae9fe8789ac",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 3
+                },
+                {
+                    "config": {
+                        "activateMax": false,
+                        "maxFileSize": null,
+                        "maxFiles": 1
+                    },
+                    "datatype": "file-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Image",
+                    "nodegroup_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "nodeid": "23ee2b10-bdd5-11eb-92a7-aae9fe8789ac",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Time Required",
+                    "nodegroup_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "nodeid": "d75dc7c4-bdd4-11eb-92a7-aae9fe8789ac",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 2
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Person",
+                    "nodegroup_id": "a5b6ad12-bdd4-11eb-92a7-aae9fe8789ac",
+                    "nodeid": "e94b45b0-bdd4-11eb-92a7-aae9fe8789ac",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 1
+                }
+            ],
+            "ontology_id": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "config": null,
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                "is_collector": false,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Repair or Maintenance Activity",
+                "nodegroup_id": null,
+                "nodeid": "854a2c66-bdd4-11eb-92a7-aae9fe8789ac",
+                "ontologyclass": null,
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "",
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.1 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "d084e2885 2021-04-19 09:10:08 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
+}

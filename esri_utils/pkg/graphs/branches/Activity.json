@@ -1,0 +1,169 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "97b07e90-bdd5-11eb-92a7-aae9fe8789ac",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "97b07e90-bdd5-11eb-92a7-aae9fe8789ac",
+                            "constraintid": "9ee6293f-ad6a-46dd-a94c-82fb40427ee4",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "97b07c1a-bdd5-11eb-92a7-aae9fe8789ac",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Activity",
+                    "nodegroup_id": "97b07cf6-bdd5-11eb-92a7-aae9fe8789ac",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "97b07e90-bdd5-11eb-92a7-aae9fe8789ac",
+                    "config": {
+                        "label": "Activity",
+                        "placeholder": ""
+                    },
+                    "id": "97b07f12-bdd5-11eb-92a7-aae9fe8789ac",
+                    "label": "Activity",
+                    "node_id": "97b07cf6-bdd5-11eb-92a7-aae9fe8789ac",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                }
+            ],
+            "color": null,
+            "config": {
+                "basemap": "streets",
+                "bearing": 0,
+                "centerX": -122.3979693,
+                "centerY": 37.79,
+                "featureColor": "#FF0000",
+                "featureEditingDisabled": true,
+                "featureLineWidth": 1,
+                "featurePointSize": 3,
+                "geocodePlaceholder": "Search",
+                "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                "geocoderVisible": true,
+                "geometryTypes": [
+                    {
+                        "id": "Point",
+                        "text": "Point"
+                    },
+                    {
+                        "id": "Line",
+                        "text": "Line"
+                    },
+                    {
+                        "id": "Polygon",
+                        "text": "Polygon"
+                    }
+                ],
+                "mapControlsHidden": false,
+                "maxZoom": 20,
+                "minZoom": 0,
+                "overlayConfigs": [],
+                "overlayOpacity": 0,
+                "pitch": 0,
+                "zoom": 10
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "",
+            "edges": [],
+            "functions_x_graphs": [],
+            "graphid": "97b07c1a-bdd5-11eb-92a7-aae9fe8789ac",
+            "iconclass": "fa fa-angle-double-right",
+            "is_editable": true,
+            "isactive": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": "Activity",
+            "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "97b07cf6-bdd5-11eb-92a7-aae9fe8789ac",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                                "name": "Repair or Maintenance Activity"
+                            }
+                        ]
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "97b07c1a-bdd5-11eb-92a7-aae9fe8789ac",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Activity",
+                    "nodegroup_id": "97b07cf6-bdd5-11eb-92a7-aae9fe8789ac",
+                    "nodeid": "97b07cf6-bdd5-11eb-92a7-aae9fe8789ac",
+                    "ontologyclass": null,
+                    "parentproperty": "",
+                    "sortorder": 0
+                }
+            ],
+            "ontology_id": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "config": {
+                    "graphs": [
+                        {
+                            "graphid": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                            "name": "Repair or Maintenance Activity"
+                        }
+                    ]
+                },
+                "datatype": "resource-instance-list",
+                "description": null,
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "97b07c1a-bdd5-11eb-92a7-aae9fe8789ac",
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Activity",
+                "nodegroup_id": "97b07cf6-bdd5-11eb-92a7-aae9fe8789ac",
+                "nodeid": "97b07cf6-bdd5-11eb-92a7-aae9fe8789ac",
+                "ontologyclass": null,
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "",
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.1 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "d084e2885 2021-04-19 09:10:08 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
+}
