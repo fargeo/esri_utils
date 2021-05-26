@@ -164,6 +164,7 @@
                         "label": "Location Description",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "765fdaf0-673d-11ea-a00c-acde48001122",
@@ -186,6 +187,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "b3b01ae4-673f-11ea-a00c-acde48001122",
@@ -226,6 +228,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "76e7d086-673d-11ea-a00c-acde48001122",
@@ -248,6 +251,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "b3b29b20-673f-11ea-a00c-acde48001122",
@@ -311,6 +315,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "b3b1e1c6-673f-11ea-a00c-acde48001122",
@@ -333,6 +338,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "b3b23fd6-673f-11ea-a00c-acde48001122",
@@ -409,6 +415,7 @@
                         "label": "Facility Identifier",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "793c0fa0-673d-11ea-a00c-acde48001122",
@@ -425,6 +432,7 @@
                         "label": "GlobalID",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "793c0fdc-673d-11ea-a00c-acde48001122",
@@ -447,6 +455,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "b3b302fe-673f-11ea-a00c-acde48001122",
@@ -469,6 +478,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "b3b35d30-673f-11ea-a00c-acde48001122",
@@ -521,6 +531,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "b3b1865e-673f-11ea-a00c-acde48001122",
@@ -555,6 +566,7 @@
                         "label": "Last Editor",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "1d7f242e-6740-11ea-a00c-acde48001122",
@@ -855,6 +867,24 @@
             "nodes": [
                 {
                     "config": null,
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "3f2bf1c2-673d-11ea-a00c-acde48001122",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "DEPTH",
+                    "nodegroup_id": "78953824-673d-11ea-a00c-acde48001122",
+                    "nodeid": "38475016-673f-11ea-a00c-acde48001122",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -967,7 +997,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -985,7 +1017,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -1226,7 +1260,7 @@
                     "nodeid": "2479f110-673f-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 7
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1244,7 +1278,7 @@
                     "nodeid": "38cd4310-673f-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -1264,7 +1298,7 @@
                     "nodeid": "2656cf58-673f-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 6
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -1284,7 +1318,7 @@
                     "nodeid": "26e7b8e2-673f-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 5
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1320,7 +1354,7 @@
                     "nodeid": "277d27e2-673f-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1356,25 +1390,7 @@
                     "nodeid": "282895fa-673f-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
-                },
-                {
-                    "config": null,
-                    "datatype": "number",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "3f2bf1c2-673d-11ea-a00c-acde48001122",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "DEPTH",
-                    "nodegroup_id": "78953824-673d-11ea-a00c-acde48001122",
-                    "nodeid": "38475016-673f-11ea-a00c-acde48001122",
-                    "ontologyclass": null,
-                    "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 }
             ],
             "ontology_id": null,
@@ -1402,5 +1418,11 @@
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.1 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "1e2baa25b 2021-05-05 09:22:26 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
 }

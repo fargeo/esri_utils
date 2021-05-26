@@ -1,0 +1,2 @@
+Excel guid formula:
+=REPLACE(REPLACE(O186,1,1,""),37,37,"")

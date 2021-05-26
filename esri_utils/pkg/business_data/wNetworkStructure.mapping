@@ -1,0 +1,122 @@
+{
+    "resource_model_id": "33ba096e-64b8-11ea-8095-acde48001122",
+    "resource_model_name": "wNetworkStructure",
+    "nodes": [
+        {
+            "arches_nodeid": "53e24c92-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "ACTIVEFLAG",
+            "file_field_name": "ACTIVEFLAG",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3cd439a6-64b9-11ea-8095-acde48001122",
+            "arches_node_name": "AncillaryRole",
+            "file_field_name": "AncillaryRole",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "53e24e2c-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "ENABLED",
+            "file_field_name": "ENABLED",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "55280ac4-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "FACILITYID",
+            "file_field_name": "FACILITYID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "55280bc8-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "GlobalID",
+            "file_field_name": "GlobalID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "535f5184-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "INSTALLDATE",
+            "file_field_name": "INSTALLDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "535f5364-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "LASTEDITOR",
+            "file_field_name": "LASTEDITOR",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "535f5288-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "LASTUPDATE",
+            "file_field_name": "LASTUPDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5151a158-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "LOCDESC",
+            "file_field_name": "LOCDESC",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "53e24d64-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "MAINTBY",
+            "file_field_name": "MAINTBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5487ee9a-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "NAME",
+            "file_field_name": "NAME",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5e8132b6-64b9-11ea-8095-acde48001122",
+            "arches_node_name": "OPDATE",
+            "file_field_name": "OPDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "53e24b98-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "OWNEDBY",
+            "file_field_name": "OWNEDBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "52bf23da-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "ROTATION",
+            "file_field_name": "ROTATION",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5487ed8c-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "STRUCTTYPE",
+            "file_field_name": "STRUCTTYPE",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "5151a054-64b8-11ea-8095-acde48001122",
+            "arches_node_name": "geometry",
+            "file_field_name": "geometry",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        }
+    ]
+}

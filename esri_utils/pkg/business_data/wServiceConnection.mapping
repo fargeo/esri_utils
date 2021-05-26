@@ -17,6 +17,13 @@
             "export": true
         },
         {
+            "arches_nodeid": "ddb533cc-bdd5-11eb-92a7-aae9fe8789ac",
+            "arches_node_name": "Activity",
+            "file_field_name": "Activity",
+            "data_type": "resource-instance-list",
+            "export": true
+        },
+        {
             "arches_nodeid": "43105c66-5873-11ea-b5fa-a683e74f7416",
             "arches_node_name": "CRITICAL",
             "file_field_name": "CRITICAL",
@@ -120,7 +127,7 @@
         {
             "arches_nodeid": "9e4c99e2-5872-11ea-b5fa-a683e74f7416",
             "arches_node_name": "geometry",
-            "file_field_name": "WKT",
+            "file_field_name": "geometry",
             "data_type": "geojson-feature-collection",
             "export": true
         }

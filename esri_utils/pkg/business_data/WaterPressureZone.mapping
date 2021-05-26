@@ -1,0 +1,57 @@
+{
+    "resource_model_id": "982ba64e-591b-11ea-b5fa-a683e74f7416",
+    "resource_model_name": "WaterPressureZone",
+    "nodes": [
+        {
+            "arches_nodeid": "b1a569c0-591b-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "DIAMETER",
+            "file_field_name": "DIAMETER",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ad11b648-591b-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "GlobalID",
+            "file_field_name": "GlobalID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "b1a56a88-591b-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "MATERIAL",
+            "file_field_name": "MATERIAL",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "b1a568ee-591b-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "TRANSMISS",
+            "file_field_name": "TRANSMISS",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "b1a567f4-591b-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "WATERTYPE",
+            "file_field_name": "WATERTYPE",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ad11b544-591b-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "ZONEID",
+            "file_field_name": "ZONEID",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "e768d1ac-64f9-11ea-8095-acde48001122",
+            "arches_node_name": "geometry",
+            "file_field_name": "geometry",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        }
+    ]
+}

@@ -140,6 +140,25 @@
                     "nodegroup_id": "294aa95a-58fd-11ea-b5fa-a683e74f7416",
                     "sortorder": 1,
                     "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "56805d5a-be66-11eb-ad8c-aae9fe8789ac",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Activity",
+                    "nodegroup_id": "56805b98-be66-11eb-ad8c-aae9fe8789ac",
+                    "sortorder": null,
+                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
@@ -232,6 +251,7 @@
                         "label": "Location Description",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "294ac8f4-58fd-11ea-b5fa-a683e74f7416",
@@ -240,6 +260,21 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "294aaf7c-58fd-11ea-b5fa-a683e74f7416",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Valve Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "294ac9ee-58fd-11ea-b5fa-a683e74f7416",
+                    "label": "Valve Type",
+                    "node_id": "294ac3ea-58fd-11ea-b5fa-a683e74f7416",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "294ab8dc-58fd-11ea-b5fa-a683e74f7416",
@@ -299,6 +334,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "294ac9bc-58fd-11ea-b5fa-a683e74f7416",
@@ -307,21 +343,6 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000008"
-                },
-                {
-                    "card_id": "294aaf7c-58fd-11ea-b5fa-a683e74f7416",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Valve Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "294ac9ee-58fd-11ea-b5fa-a683e74f7416",
-                    "label": "Valve Type",
-                    "node_id": "294ac3ea-58fd-11ea-b5fa-a683e74f7416",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "294aaf7c-58fd-11ea-b5fa-a683e74f7416",
@@ -336,6 +357,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "c67dbf04-58fe-11ea-b5fa-a683e74f7416",
@@ -401,6 +423,7 @@
                         "label": "Last Editor",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "294aca7a-58fd-11ea-b5fa-a683e74f7416",
@@ -423,6 +446,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "294acaac-58fd-11ea-b5fa-a683e74f7416",
@@ -439,6 +463,7 @@
                         "label": "Facility Identifier",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "294ac962-58fd-11ea-b5fa-a683e74f7416",
@@ -455,6 +480,7 @@
                         "label": "GlobalID",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "294ac98a-58fd-11ea-b5fa-a683e74f7416",
@@ -463,6 +489,19 @@
                     "sortorder": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "56805d5a-be66-11eb-ad8c-aae9fe8789ac",
+                    "config": {
+                        "label": "Activity",
+                        "placeholder": ""
+                    },
+                    "id": "56805df0-be66-11eb-ad8c-aae9fe8789ac",
+                    "label": "Activity",
+                    "node_id": "56805b98-be66-11eb-ad8c-aae9fe8789ac",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 }
             ],
             "color": null,
@@ -504,6 +543,78 @@
             "deploymentfile": null,
             "description": "",
             "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "294ab0e4-58fd-11ea-b5fa-a683e74f7416",
+                    "edgeid": "294b0f8a-58fd-11ea-b5fa-a683e74f7416",
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "294ac250-58fd-11ea-b5fa-a683e74f7416"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "294ab0e4-58fd-11ea-b5fa-a683e74f7416",
+                    "edgeid": "294b0fe4-58fd-11ea-b5fa-a683e74f7416",
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "294ac30e-58fd-11ea-b5fa-a683e74f7416"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "294ab0e4-58fd-11ea-b5fa-a683e74f7416",
+                    "edgeid": "294b103e-58fd-11ea-b5fa-a683e74f7416",
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "294ac0c0-58fd-11ea-b5fa-a683e74f7416"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "294abf44-58fd-11ea-b5fa-a683e74f7416",
+                    "edgeid": "294b1098-58fd-11ea-b5fa-a683e74f7416",
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "294ab0e4-58fd-11ea-b5fa-a683e74f7416"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "294abf44-58fd-11ea-b5fa-a683e74f7416",
+                    "edgeid": "294b10f2-58fd-11ea-b5fa-a683e74f7416",
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "294aba6c-58fd-11ea-b5fa-a683e74f7416"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "294ab422-58fd-11ea-b5fa-a683e74f7416",
+                    "edgeid": "294b114c-58fd-11ea-b5fa-a683e74f7416",
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "294ac570-58fd-11ea-b5fa-a683e74f7416"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "294ab0e4-58fd-11ea-b5fa-a683e74f7416",
+                    "edgeid": "1bfd9176-58fe-11ea-b5fa-a683e74f7416",
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "1bfd8ef6-58fe-11ea-b5fa-a683e74f7416"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "294aad74-58fd-11ea-b5fa-a683e74f7416",
+                    "edgeid": "9c861bba-58fe-11ea-b5fa-a683e74f7416",
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "9c861958-58fe-11ea-b5fa-a683e74f7416"
+                },
                 {
                     "description": null,
                     "domainnode_id": "294ab422-58fd-11ea-b5fa-a683e74f7416",
@@ -641,75 +752,12 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "294ab0e4-58fd-11ea-b5fa-a683e74f7416",
-                    "edgeid": "294b0f8a-58fd-11ea-b5fa-a683e74f7416",
-                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
-                    "name": null,
-                    "ontologyproperty": null,
-                    "rangenode_id": "294ac250-58fd-11ea-b5fa-a683e74f7416"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "294ab0e4-58fd-11ea-b5fa-a683e74f7416",
-                    "edgeid": "294b0fe4-58fd-11ea-b5fa-a683e74f7416",
-                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
-                    "name": null,
-                    "ontologyproperty": null,
-                    "rangenode_id": "294ac30e-58fd-11ea-b5fa-a683e74f7416"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "294ab0e4-58fd-11ea-b5fa-a683e74f7416",
-                    "edgeid": "294b103e-58fd-11ea-b5fa-a683e74f7416",
-                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
-                    "name": null,
-                    "ontologyproperty": null,
-                    "rangenode_id": "294ac0c0-58fd-11ea-b5fa-a683e74f7416"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "294abf44-58fd-11ea-b5fa-a683e74f7416",
-                    "edgeid": "294b1098-58fd-11ea-b5fa-a683e74f7416",
+                    "edgeid": "56805fbc-be66-11eb-ad8c-aae9fe8789ac",
                     "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
                     "name": null,
                     "ontologyproperty": null,
-                    "rangenode_id": "294ab0e4-58fd-11ea-b5fa-a683e74f7416"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "294abf44-58fd-11ea-b5fa-a683e74f7416",
-                    "edgeid": "294b10f2-58fd-11ea-b5fa-a683e74f7416",
-                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
-                    "name": null,
-                    "ontologyproperty": null,
-                    "rangenode_id": "294aba6c-58fd-11ea-b5fa-a683e74f7416"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "294ab422-58fd-11ea-b5fa-a683e74f7416",
-                    "edgeid": "294b114c-58fd-11ea-b5fa-a683e74f7416",
-                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
-                    "name": null,
-                    "ontologyproperty": null,
-                    "rangenode_id": "294ac570-58fd-11ea-b5fa-a683e74f7416"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "294ab0e4-58fd-11ea-b5fa-a683e74f7416",
-                    "edgeid": "1bfd9176-58fe-11ea-b5fa-a683e74f7416",
-                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
-                    "name": null,
-                    "ontologyproperty": null,
-                    "rangenode_id": "1bfd8ef6-58fe-11ea-b5fa-a683e74f7416"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "294aad74-58fd-11ea-b5fa-a683e74f7416",
-                    "edgeid": "9c861bba-58fe-11ea-b5fa-a683e74f7416",
-                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
-                    "name": null,
-                    "ontologyproperty": null,
-                    "rangenode_id": "9c861958-58fe-11ea-b5fa-a683e74f7416"
+                    "rangenode_id": "56805b98-be66-11eb-ad8c-aae9fe8789ac"
                 }
             ],
             "functions_x_graphs": [],
@@ -756,9 +804,154 @@
                     "legacygroupid": null,
                     "nodegroupid": "294aba6c-58fd-11ea-b5fa-a683e74f7416",
                     "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "56805b98-be66-11eb-ad8c-aae9fe8789ac",
+                    "parentnodegroup_id": null
                 }
             ],
             "nodes": [
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "LASTEDITOR",
+                    "nodegroup_id": "294ab422-58fd-11ea-b5fa-a683e74f7416",
+                    "nodeid": "294ac62e-58fd-11ea-b5fa-a683e74f7416",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "addToMap": true,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(130, 130, 130, 0.7)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "geometry",
+                    "nodegroup_id": "294ab74c-58fd-11ea-b5fa-a683e74f7416",
+                    "nodeid": "294ac6ec-58fd-11ea-b5fa-a683e74f7416",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "ef5ee421-861b-4e64-8c40-424b7dc85e74"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "MAINTBY",
+                    "nodegroup_id": "294ab0e4-58fd-11ea-b5fa-a683e74f7416",
+                    "nodeid": "294ac30e-58fd-11ea-b5fa-a683e74f7416",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "INSTALLDATE",
+                    "nodegroup_id": "294ab422-58fd-11ea-b5fa-a683e74f7416",
+                    "nodeid": "294ac4b2-58fd-11ea-b5fa-a683e74f7416",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "LASTUPDATE",
+                    "nodegroup_id": "294ab422-58fd-11ea-b5fa-a683e74f7416",
+                    "nodeid": "294ac570-58fd-11ea-b5fa-a683e74f7416",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "8b9c0b8e-0115-4f36-9d8f-133333bcfaf6"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "VALVETYPE",
+                    "nodegroup_id": "294aad74-58fd-11ea-b5fa-a683e74f7416",
+                    "nodeid": "294ac3ea-58fd-11ea-b5fa-a683e74f7416",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
                 {
                     "config": null,
                     "datatype": "string",
@@ -811,7 +1004,7 @@
                     "nodeid": "294aad74-58fd-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -868,7 +1061,7 @@
                     "nodeid": "294ac002-58fd-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -886,7 +1079,7 @@
                     "nodeid": "9abba926-58fe-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -907,7 +1100,7 @@
                     "nodeid": "294ac0c0-58fd-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 5
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -963,7 +1156,7 @@
                     "nodeid": "294ab0e4-58fd-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -981,7 +1174,7 @@
                     "nodeid": "294ab422-58fd-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -999,7 +1192,7 @@
                     "nodeid": "294ab74c-58fd-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1017,7 +1210,7 @@
                     "nodeid": "294aba6c-58fd-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 5
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -1036,47 +1229,6 @@
                     "name": "OPERABLE",
                     "nodegroup_id": "294ab0e4-58fd-11ea-b5fa-a683e74f7416",
                     "nodeid": "1bfd8ef6-58fe-11ea-b5fa-a683e74f7416",
-                    "ontologyclass": null,
-                    "parentproperty": null,
-                    "sortorder": 2
-                },
-                {
-                    "config": {
-                        "addToMap": false,
-                        "advancedStyle": "",
-                        "advancedStyling": false,
-                        "clusterDistance": 20,
-                        "clusterMaxZoom": 5,
-                        "clusterMinPoints": 3,
-                        "fillColor": "rgba(130, 130, 130, 0.5)",
-                        "haloRadius": 4,
-                        "haloWeight": 4,
-                        "layerActivated": true,
-                        "layerIcon": "",
-                        "layerLegend": "",
-                        "layerName": "",
-                        "lineColor": "rgba(130, 130, 130, 0.7)",
-                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "outlineColor": "rgba(200, 200, 200, 0.7)",
-                        "outlineWeight": 2,
-                        "pointColor": "rgba(130, 130, 130, 0.7)",
-                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "radius": 2,
-                        "simplification": 0.3,
-                        "weight": 2
-                    },
-                    "datatype": "geojson-feature-collection",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "geometry",
-                    "nodegroup_id": "294ab74c-58fd-11ea-b5fa-a683e74f7416",
-                    "nodeid": "294ac6ec-58fd-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
                     "sortorder": 0
@@ -1118,7 +1270,7 @@
                     "nodeid": "1b7eae60-58fe-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -1139,98 +1291,29 @@
                     "nodeid": "9c861958-58fe-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
-                },
-                {
-                    "config": {
-                        "rdmCollection": "ef5ee421-861b-4e64-8c40-424b7dc85e74"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "MAINTBY",
-                    "nodegroup_id": "294ab0e4-58fd-11ea-b5fa-a683e74f7416",
-                    "nodeid": "294ac30e-58fd-11ea-b5fa-a683e74f7416",
-                    "ontologyclass": null,
-                    "parentproperty": null,
-                    "sortorder": 1
-                },
-                {
-                    "config": null,
-                    "datatype": "date",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "INSTALLDATE",
-                    "nodegroup_id": "294ab422-58fd-11ea-b5fa-a683e74f7416",
-                    "nodeid": "294ac4b2-58fd-11ea-b5fa-a683e74f7416",
-                    "ontologyclass": null,
-                    "parentproperty": null,
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "date",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "LASTUPDATE",
-                    "nodegroup_id": "294ab422-58fd-11ea-b5fa-a683e74f7416",
-                    "nodeid": "294ac570-58fd-11ea-b5fa-a683e74f7416",
-                    "ontologyclass": null,
-                    "parentproperty": null,
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "LASTEDITOR",
-                    "nodegroup_id": "294ab422-58fd-11ea-b5fa-a683e74f7416",
-                    "nodeid": "294ac62e-58fd-11ea-b5fa-a683e74f7416",
-                    "ontologyclass": null,
-                    "parentproperty": null,
                     "sortorder": 0
                 },
                 {
                     "config": {
-                        "rdmCollection": "8b9c0b8e-0115-4f36-9d8f-133333bcfaf6"
+                        "graphs": [
+                            {
+                                "graphid": "854a2e8c-bdd4-11eb-92a7-aae9fe8789ac",
+                                "name": "Repair or Maintenance Activity"
+                            }
+                        ]
                     },
-                    "datatype": "concept",
-                    "description": null,
+                    "datatype": "resource-instance-list",
+                    "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
-                    "is_collector": false,
+                    "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "VALVETYPE",
-                    "nodegroup_id": "294aad74-58fd-11ea-b5fa-a683e74f7416",
-                    "nodeid": "294ac3ea-58fd-11ea-b5fa-a683e74f7416",
+                    "name": "Activity",
+                    "nodegroup_id": "56805b98-be66-11eb-ad8c-aae9fe8789ac",
+                    "nodeid": "56805b98-be66-11eb-ad8c-aae9fe8789ac",
                     "ontologyclass": null,
                     "parentproperty": null,
                     "sortorder": 0
@@ -1261,5 +1344,11 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.1 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "1e2baa25b 2021-05-05 09:22:26 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
 }
