@@ -1,0 +1,107 @@
+{
+    "resource_model_id": "25c43e10-58c9-11ea-b5fa-a683e74f7416",
+    "resource_model_name": "wControlValve",
+    "nodes": [
+        {
+            "arches_nodeid": "3a608dce-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "ACTIVEFLAG",
+            "file_field_name": "ACTIVEFLAG",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "39f5719c-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "DIAMETER",
+            "file_field_name": "DIAMETER",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3a608f72-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "ENABLED",
+            "file_field_name": "ENABLED",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3975ef3a-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "FACILITYID",
+            "file_field_name": "FACILITYID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3975f048-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "GlobalID",
+            "file_field_name": "GlobalID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3b090e2c-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "INSTALLDATE",
+            "file_field_name": "INSTALLDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3b09100c-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LASTEDITOR",
+            "file_field_name": "LASTEDITOR",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3b090f3a-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LASTUPDATE",
+            "file_field_name": "LASTUPDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3b8a919a-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LOCDESC",
+            "file_field_name": "LOCDESC",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3a608eaa-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "MAINTBY",
+            "file_field_name": "MAINTBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3a608cac-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "OWNEDBY",
+            "file_field_name": "OWNEDBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "60c2ce0a-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "ROTATION",
+            "file_field_name": "ROTATION",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "39f56fbc-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "VALVETYPE",
+            "file_field_name": "VALVETYPE",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3b8a908c-58c9-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "geometry",
+            "file_field_name": "WKT",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "resource_model_id": "1d060b9a-5a8c-11ea-92c4-acde48001122",
+    "resource_model_name": "wTestStation",
+    "nodes": [
+        {
+            "arches_nodeid": "36be01be-5a8c-11ea-92c4-acde48001122",
+            "arches_node_name": "ENABLED",
+            "file_field_name": "ENABLED",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "38c87584-5a8c-11ea-92c4-acde48001122",
+            "arches_node_name": "GlobalID",
+            "file_field_name": "GlobalID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3485a14a-5a8c-11ea-92c4-acde48001122",
+            "arches_node_name": "INSTALLDATE",
+            "file_field_name": "INSTALLDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3485a320-5a8c-11ea-92c4-acde48001122",
+            "arches_node_name": "LASTEDITOR",
+            "file_field_name": "LASTEDITOR",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3485a24e-5a8c-11ea-92c4-acde48001122",
+            "arches_node_name": "LASTUPDATE",
+            "file_field_name": "LASTUPDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3a1d388e-5a8c-11ea-92c4-acde48001122",
+            "arches_node_name": "geometry",
+            "file_field_name": "geometry",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        }
+    ]
+}

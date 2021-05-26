@@ -1,0 +1,121 @@
+{
+    "resource_model_id": "a54816e4-5864-11ea-b5fa-a683e74f7416",
+    "resource_model_name": "wHydrant",
+    "nodes": [
+        {
+            "arches_nodeid": "38773792-5865-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "ACTIVEFLAG",
+            "file_field_name": "ACTIVEFLAG",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3877392c-5865-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "ENABLED",
+            "file_field_name": "ENABLED",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "332533d4-5865-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "FACILITYID",
+            "file_field_name": "FACILITYID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3bf702da-5865-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "FLOW",
+            "file_field_name": "FLOW",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "332534d8-5865-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "GlobalID",
+            "file_field_name": "GlobalID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3a2d71e6-5865-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "INSTALLDATE",
+            "file_field_name": "INSTALLDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3a2d73b2-5865-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LASTEDITOR",
+            "file_field_name": "LASTEDITOR",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3a2d72e0-5865-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LASTUPDATE",
+            "file_field_name": "LASTUPDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "60238d12-5866-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LASTUPSERVICE",
+            "file_field_name": "LASTUPSERVICE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3ad0e074-5865-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LOCDESC",
+            "file_field_name": "LOCDESC",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "38773864-5865-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "MAINTBY",
+            "file_field_name": "MAINTBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3bf70104-5865-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "MANUFACTURER",
+            "file_field_name": "MANUFACTURER",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "49a02212-5866-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "OPERABLE",
+            "file_field_name": "OPERABLE",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3877368e-5865-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "OWNEDBY",
+            "file_field_name": "OWNEDBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "91b4591a-586b-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "ROTATION",
+            "file_field_name": "ROTATION",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "3ad0df70-5865-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "geometry",
+            "file_field_name": "WKT",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        }
+    ]
+}

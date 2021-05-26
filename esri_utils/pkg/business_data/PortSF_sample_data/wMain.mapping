@@ -1,0 +1,108 @@
+{
+    "resource_model_id": "4dd4624c-5813-11ea-b5fa-a683e74f7416",
+    "resource_model_name": "wMain",
+    "nodes": [
+        {
+            "arches_nodeid": "90d03d5c-5834-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "ACTIVEFLAG",
+            "file_field_name": "ACTIVEFLAG",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "87a4a33a-5834-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "DIAMETER",
+            "file_field_name": "DIAMETER",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "915b0dc4-5834-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "ENABLED",
+            "file_field_name": "ENABLED",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "430d5690-5834-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "FACILITYID",
+            "file_field_name": "FACILITYID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "82d6980e-5834-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "GlobalID",
+            "file_field_name": "GlobalID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "93bf3ce8-5834-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "INSTALLDATE",
+            "file_field_name": "INSTALLDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9675dc4e-5834-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LASTEDITOR",
+            "file_field_name": "LASTEDITOR",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "95ccd28e-5834-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LASTUPDATE",
+            "file_field_name": "LASTUPDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "8df3a2f4-5834-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "MAINTBY",
+            "file_field_name": "MAINTBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "89642b8c-5834-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "MATERIAL",
+            "file_field_name": "MATERIAL",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "90149bba-5834-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "OWNEDBY",
+            "file_field_name": "OWNEDBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "88c3d0c4-5834-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "TRANSMISS",
+            "file_field_name": "TRANSMISS",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "87175ed0-5834-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "WATERTYPE",
+            "file_field_name": "WATERTYPE",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "53b84d5a-5862-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "geometry",
+            "file_field_name": "WKT",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        }
+    ]
+}

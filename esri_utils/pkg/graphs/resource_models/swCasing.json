@@ -5,6 +5,28 @@
             "cards": [
                 {
                     "active": true,
+                    "cardid": "7a7725ec-6712-11ea-a00c-acde48001122",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": {
+                        "groupedCardIds": [],
+                        "sortedWidgetIds": []
+                    },
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "7a771890-6712-11ea-a00c-acde48001122",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Identifications",
+                    "nodegroup_id": "7a772434-6712-11ea-a00c-acde48001122",
+                    "sortorder": 0,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "7a771fe8-6712-11ea-a00c-acde48001122",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -91,28 +113,6 @@
                     "name": "Location",
                     "nodegroup_id": "7a771a02-6712-11ea-a00c-acde48001122",
                     "sortorder": 4,
-                    "visible": true
-                },
-                {
-                    "active": true,
-                    "cardid": "7a7725ec-6712-11ea-a00c-acde48001122",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": {
-                        "groupedCardIds": [],
-                        "sortedWidgetIds": []
-                    },
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "7a771890-6712-11ea-a00c-acde48001122",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Identifications",
-                    "nodegroup_id": "7a772434-6712-11ea-a00c-acde48001122",
-                    "sortorder": 0,
                     "visible": true
                 }
             ],
@@ -263,6 +263,7 @@
                         "label": "Last Editor",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "7a77337a-6712-11ea-a00c-acde48001122",
@@ -279,6 +280,7 @@
                         "label": "Facility ID",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "7a77346a-6712-11ea-a00c-acde48001122",
@@ -301,6 +303,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "7a7733de-6712-11ea-a00c-acde48001122",
@@ -323,6 +326,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "7a773406-6712-11ea-a00c-acde48001122",
@@ -339,6 +343,7 @@
                         "label": "GlobalID",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "7a77349c-6712-11ea-a00c-acde48001122",
@@ -608,7 +613,9 @@
             ],
             "nodes": [
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -626,7 +633,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -769,7 +778,7 @@
                     "nodeid": "7a772cfe-6712-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -808,7 +817,7 @@
                     "nodeid": "7a772c4a-6712-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -828,7 +837,7 @@
                     "nodeid": "7a772db2-6712-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1010,5 +1019,11 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.1 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "1e2baa25b 2021-05-05 09:22:26 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
 }

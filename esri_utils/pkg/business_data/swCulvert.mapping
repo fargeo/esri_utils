@@ -1,0 +1,122 @@
+{
+    "resource_model_id": "1f87de4e-671f-11ea-a00c-acde48001122",
+    "resource_model_name": "swCulvert",
+    "nodes": [
+        {
+            "arches_nodeid": "346ad618-671f-11ea-a00c-acde48001122",
+            "arches_node_name": "ACTIVEFLAG",
+            "file_field_name": "ACTIVEFLAG",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "352befba-671f-11ea-a00c-acde48001122",
+            "arches_node_name": "DIAMETER",
+            "file_field_name": "DIAMETER",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1d6d75ee-673b-11ea-a00c-acde48001122",
+            "arches_node_name": "DOWNELEV",
+            "file_field_name": "DOWNELEV",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "346ad7b2-671f-11ea-a00c-acde48001122",
+            "arches_node_name": "ENABLED",
+            "file_field_name": "ENABLED",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "35e71f56-671f-11ea-a00c-acde48001122",
+            "arches_node_name": "FACILITYID",
+            "file_field_name": "FACILITYID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "35e72046-671f-11ea-a00c-acde48001122",
+            "arches_node_name": "GlobalID",
+            "file_field_name": "GlobalID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32732c0c-671f-11ea-a00c-acde48001122",
+            "arches_node_name": "INSTALLDATE",
+            "file_field_name": "INSTALLDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32732f5e-671f-11ea-a00c-acde48001122",
+            "arches_node_name": "LASTEDITOR",
+            "file_field_name": "LASTEDITOR",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "32732df6-671f-11ea-a00c-acde48001122",
+            "arches_node_name": "LASTUPDATE",
+            "file_field_name": "LASTUPDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "eb4cca62-672e-11ea-a00c-acde48001122",
+            "arches_node_name": "MAINSHAPE",
+            "file_field_name": "MAINSHAPE",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "346ad6ea-671f-11ea-a00c-acde48001122",
+            "arches_node_name": "MAINTBY",
+            "file_field_name": "MAINTBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "352bf082-671f-11ea-a00c-acde48001122",
+            "arches_node_name": "MATERIAL",
+            "file_field_name": "MATERIAL",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "346ad514-671f-11ea-a00c-acde48001122",
+            "arches_node_name": "OWNEDBY",
+            "file_field_name": "OWNEDBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0b7ed8f0-673b-11ea-a00c-acde48001122",
+            "arches_node_name": "SUMFLOW",
+            "file_field_name": "SUMFLOW",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2966b090-673b-11ea-a00c-acde48001122",
+            "arches_node_name": "UPELEV",
+            "file_field_name": "UPELEV",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2f7d843e-671f-11ea-a00c-acde48001122",
+            "arches_node_name": "geometry",
+            "file_field_name": "geometry",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        }
+    ]
+}

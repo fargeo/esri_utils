@@ -1,0 +1,135 @@
+{
+    "resource_model_id": "294aa81a-58fd-11ea-b5fa-a683e74f7416",
+    "resource_model_name": "wCurbStopValve",
+    "nodes": [
+        {
+            "arches_nodeid": "294ac0c0-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "ACTIVEFLAG",
+            "file_field_name": "ACTIVEFLAG",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1b7eae60-58fe-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "CURROPEN",
+            "file_field_name": "CURROPEN",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "294ac188-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "DIAMETER",
+            "file_field_name": "DIAMETER",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "294ac002-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "ENABLED",
+            "file_field_name": "ENABLED",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "294abd82-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "FACILITYID",
+            "file_field_name": "FACILITYID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "294abe7c-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "GlobalID",
+            "file_field_name": "GlobalID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "294ac4b2-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "INSTALLDATE",
+            "file_field_name": "INSTALLDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "294ac62e-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LASTEDITOR",
+            "file_field_name": "LASTEDITOR",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "294ac570-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LASTUPDATE",
+            "file_field_name": "LASTUPDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "294ac7aa-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LOCDESC",
+            "file_field_name": "LOCDESC",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "294ac30e-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "MAINTBY",
+            "file_field_name": "MAINTBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9c861958-58fe-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "NORMALLYOPEN",
+            "file_field_name": "NORMALLYOPEN",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1bfd8ef6-58fe-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "OPERABLE",
+            "file_field_name": "OPERABLE",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "294ac250-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "OWNEDBY",
+            "file_field_name": "OWNEDBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "294aba6c-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "ROTATION",
+            "file_field_name": "ROTATION",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9abba926-58fe-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "TURNTOCLOSE",
+            "file_field_name": "TURNTOCLOSE",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "294ac3ea-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "VALVETYPE",
+            "file_field_name": "VALVETYPE",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "294ac6ec-58fd-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "geometry",
+            "file_field_name": "geometry",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        }
+    ]
+}

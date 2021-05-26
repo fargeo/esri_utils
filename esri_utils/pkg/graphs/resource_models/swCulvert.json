@@ -179,6 +179,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "63440858-673b-11ea-a00c-acde48001122",
@@ -201,6 +202,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "634376ae-673b-11ea-a00c-acde48001122",
@@ -223,6 +225,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "6344de7c-673b-11ea-a00c-acde48001122",
@@ -321,6 +324,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "352bf136-671f-11ea-a00c-acde48001122",
@@ -382,6 +386,7 @@
                         "label": "Facility Identifier",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "35e720be-671f-11ea-a00c-acde48001122",
@@ -398,6 +403,7 @@
                         "label": "GlobalID",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "35e720fa-671f-11ea-a00c-acde48001122",
@@ -432,6 +438,7 @@
                         "label": "Last Editor",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "0e44fbbc-672e-11ea-a00c-acde48001122",
@@ -757,7 +764,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -811,7 +820,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -944,7 +955,7 @@
                     "nodeid": "352befba-671f-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -1000,7 +1011,7 @@
                     "nodeid": "1d6d75ee-673b-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1018,7 +1029,7 @@
                     "nodeid": "0b7ed8f0-673b-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1036,7 +1047,7 @@
                     "nodeid": "2966b090-673b-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1110,7 +1121,7 @@
                     "nodeid": "eb4cca62-672e-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 5
+                    "sortorder": 0
                 }
             ],
             "ontology_id": null,
@@ -1138,5 +1149,11 @@
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.1 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "1e2baa25b 2021-05-05 09:22:26 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
 }

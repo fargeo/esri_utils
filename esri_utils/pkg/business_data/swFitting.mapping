@@ -1,0 +1,100 @@
+{
+    "resource_model_id": "9cab1198-6756-11ea-a00c-acde48001122",
+    "resource_model_name": "swFitting",
+    "nodes": [
+        {
+            "arches_nodeid": "9cab2c6e-6756-11ea-a00c-acde48001122",
+            "arches_node_name": "ACTIVEFLAG",
+            "file_field_name": "ACTIVEFLAG",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9cab2de0-6756-11ea-a00c-acde48001122",
+            "arches_node_name": "ENABLED",
+            "file_field_name": "ENABLED",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9cab2f70-6756-11ea-a00c-acde48001122",
+            "arches_node_name": "FACILITYID",
+            "file_field_name": "FACILITYID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9cab2ea8-6756-11ea-a00c-acde48001122",
+            "arches_node_name": "FITTINGTYPE",
+            "file_field_name": "FITTINGTYPE",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9cab302e-6756-11ea-a00c-acde48001122",
+            "arches_node_name": "GlobalID",
+            "file_field_name": "GlobalID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9cab2958-6756-11ea-a00c-acde48001122",
+            "arches_node_name": "INSTALLDATE",
+            "file_field_name": "INSTALLDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9cab2ae8-6756-11ea-a00c-acde48001122",
+            "arches_node_name": "LASTEDITOR",
+            "file_field_name": "LASTEDITOR",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9cab2a20-6756-11ea-a00c-acde48001122",
+            "arches_node_name": "LASTUPDATE",
+            "file_field_name": "LASTUPDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9cab2796-6756-11ea-a00c-acde48001122",
+            "arches_node_name": "LOCDESC",
+            "file_field_name": "LOCDESC",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9cab2d22-6756-11ea-a00c-acde48001122",
+            "arches_node_name": "MAINTBY",
+            "file_field_name": "MAINTBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9cab2bb0-6756-11ea-a00c-acde48001122",
+            "arches_node_name": "OWNEDBY",
+            "file_field_name": "OWNEDBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9cab16fc-6756-11ea-a00c-acde48001122",
+            "arches_node_name": "ROTATION",
+            "file_field_name": "ROTATION",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "9cab2886-6756-11ea-a00c-acde48001122",
+            "arches_node_name": "geometry",
+            "file_field_name": "geometry",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        }
+    ]
+}

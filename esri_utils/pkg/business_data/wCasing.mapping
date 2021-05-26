@@ -1,0 +1,93 @@
+{
+    "resource_model_id": "fd8db8f2-58f2-11ea-b5fa-a683e74f7416",
+    "resource_model_name": "wCasing",
+    "nodes": [
+        {
+            "arches_nodeid": "20cda976-58f3-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "ACTIVEFLAG",
+            "file_field_name": "ACTIVEFLAG",
+            "data_type": "boolean",
+            "export": true
+        },
+        {
+            "arches_nodeid": "217a2dc2-58f3-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "DIAMETER",
+            "file_field_name": "DIAMETER",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2216f3d2-58f3-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "FACILITYID",
+            "file_field_name": "FACILITYID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2216f4d6-58f3-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "GlobalID",
+            "file_field_name": "GlobalID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "204c10dc-58f3-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "INSTALLDATE",
+            "file_field_name": "INSTALLDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "204c12b2-58f3-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LASTEDITOR",
+            "file_field_name": "LASTEDITOR",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "204c11e0-58f3-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "LASTUPDATE",
+            "file_field_name": "LASTUPDATE",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "20cdaa48-58f3-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "MAINTBY",
+            "file_field_name": "MAINTBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "217a2e8a-58f3-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "MATERIAL",
+            "file_field_name": "MATERIAL",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "20cda872-58f3-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "OWNEDBY",
+            "file_field_name": "OWNEDBY",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1b982432-58fc-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "RECORDLENG",
+            "file_field_name": "RECORDLENG",
+            "data_type": "number",
+            "export": true
+        },
+        {
+            "arches_nodeid": "1f531c8e-58f3-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "geometry",
+            "file_field_name": "geometry",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        }
+    ]
+}

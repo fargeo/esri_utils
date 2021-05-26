@@ -1,0 +1,77 @@
+{
+    "resource_model_id": "3e4ed7e8-58be-11ea-b5fa-a683e74f7416",
+    "resource_model_name": "WaterUtilityDistrict",
+    "nodes": [
+        {
+            "arches_nodeid": "935ad458-58be-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "AGENCY",
+            "file_field_name": "AGENCY",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ea1af372-58be-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "AGENCYURL",
+            "file_field_name": "AGENCYURL",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "ea6f2776-58be-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "CONTACT",
+            "file_field_name": "CONTACT",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "83dc5dc6-58be-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "DISTRICTID",
+            "file_field_name": "DISTRICTID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "935ad1b0-58be-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "DISTRICTTYPE",
+            "file_field_name": "DISTRICTTYPE",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "e82910b2-58be-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "EMAIL",
+            "file_field_name": "EMAIL",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "83dc5ec0-58be-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "GlobalID",
+            "file_field_name": "GlobalID",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "935ad2b4-58be-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "NAME",
+            "file_field_name": "NAME",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "e9ca4abc-58be-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "PHONE",
+            "file_field_name": "PHONE",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "97283c10-58be-11ea-b5fa-a683e74f7416",
+            "arches_node_name": "geometry",
+            "file_field_name": "geometry",
+            "data_type": "geojson-feature-collection",
+            "export": true
+        }
+    ]
+}

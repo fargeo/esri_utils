@@ -81,7 +81,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "ROTATION",
                     "nodegroup_id": "91b4591a-586b-11ea-b5fa-a683e74f7416",
                     "sortorder": null,
@@ -140,7 +140,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Properties",
                     "nodegroup_id": "3bf6fda8-5865-11ea-b5fa-a683e74f7416",
                     "sortorder": 1,
@@ -744,7 +744,28 @@
                     "rangenode_id": "b2bdf000-bdd5-11eb-92a7-aae9fe8789ac"
                 }
             ],
-            "functions_x_graphs": [],
+            "functions_x_graphs": [
+                {
+                    "config": {
+                        "description": {
+                            "nodegroup_id": "3bf6fda8-5865-11ea-b5fa-a683e74f7416",
+                            "string_template": "Flow: <FLOW> | Manufacturer: <MANUFACTURER>"
+                        },
+                        "map_popup": {
+                            "nodegroup_id": "33253096-5865-11ea-b5fa-a683e74f7416",
+                            "string_template": "<FACILITYID>"
+                        },
+                        "name": {
+                            "nodegroup_id": "33253096-5865-11ea-b5fa-a683e74f7416",
+                            "string_template": "<FACILITYID>"
+                        },
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "60000000-0000-0000-0000-000000000001",
+                    "graph_id": "a54816e4-5864-11ea-b5fa-a683e74f7416",
+                    "id": "74406252-be63-11eb-ad8c-aae9fe8789ac"
+                }
+            ],
             "graphid": "a54816e4-5864-11ea-b5fa-a683e74f7416",
             "iconclass": "fa fa-fire-extinguisher",
             "is_editable": false,
@@ -1291,7 +1312,7 @@
     ],
     "metadata": {
         "db": "PostgreSQL 12.1 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
-        "git hash": "d084e2885 2021-04-19 09:10:08 -0700",
+        "git hash": "1e2baa25b 2021-05-05 09:22:26 -0700",
         "os": "Darwin",
         "os version": "20.4.0"
     }
