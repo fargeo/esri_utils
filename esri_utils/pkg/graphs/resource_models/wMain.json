@@ -635,17 +635,17 @@
                         },
                         "map_popup": {
                             "nodegroup_id": "198b045e-582d-11ea-b5fa-a683e74f7416",
-                            "string_template": "Water Main: <GlobalID>"
+                            "string_template": "<FACILITYID>"
                         },
                         "name": {
                             "nodegroup_id": "198b045e-582d-11ea-b5fa-a683e74f7416",
-                            "string_template": "Water Main: <GlobalID>"
+                            "string_template": "<FACILITYID>"
                         },
                         "triggering_nodegroups": []
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "4dd4624c-5813-11ea-b5fa-a683e74f7416",
-                    "id": "85be3350-be55-11eb-a774-aae9fe8789ac"
+                    "id": "815f71ea-bef8-11eb-8588-aae9fe8789ac"
                 }
             ],
             "graphid": "4dd4624c-5813-11ea-b5fa-a683e74f7416",
