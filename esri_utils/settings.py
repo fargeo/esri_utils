@@ -85,13 +85,14 @@ INSTALLED_APPS = (
     'oauth2_provider',
     'django_celery_results',
     'esri_utils',
+    'compressor',
 )
 
 ALLOWED_HOSTS = []
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
 WSGI_APPLICATION = 'esri_utils.wsgi.application'
-STATIC_ROOT = '/var/www/media'
+#STATIC_ROOT = '/var/www/media'
 
 RESOURCE_IMPORT_LOG = os.path.join(APP_ROOT, 'logs', 'resource_import.log')
 
