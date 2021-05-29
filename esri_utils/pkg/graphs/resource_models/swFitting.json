@@ -84,32 +84,6 @@
                 },
                 {
                     "active": true,
-                    "cardid": "9cab15c6-6756-11ea-a00c-acde48001122",
-                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
-                    "config": {
-                        "centerX": 3,
-                        "centerY": 8.5,
-                        "selectSource": "",
-                        "selectSourceLayer": "",
-                        "selectText": "",
-                        "zoom": 0
-                    },
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "9cab1198-6756-11ea-a00c-acde48001122",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Location",
-                    "nodegroup_id": "9cab12e2-6756-11ea-a00c-acde48001122",
-                    "sortorder": null,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "9cab1c60-6756-11ea-a00c-acde48001122",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -133,9 +107,61 @@
                     "nodegroup_id": "9cab1a62-6756-11ea-a00c-acde48001122",
                     "sortorder": 4,
                     "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "9cab15c6-6756-11ea-a00c-acde48001122",
+                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "config": {
+                        "basemap": "Light Streets",
+                        "centerX": -88.15322294301768,
+                        "centerY": 41.763991365381486,
+                        "overlayConfigs": [],
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "zoom": "13"
+                    },
+                    "constraints": [
+                        {
+                            "card_id": "9cab15c6-6756-11ea-a00c-acde48001122",
+                            "constraintid": "e93109a8-171d-425f-9347-7986b1c8d057",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "9cab1198-6756-11ea-a00c-acde48001122",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Location",
+                    "nodegroup_id": "9cab12e2-6756-11ea-a00c-acde48001122",
+                    "sortorder": null,
+                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "9cab2548-6756-11ea-a00c-acde48001122",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "GlobalID",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "9cab3092-6756-11ea-a00c-acde48001122",
+                    "label": "GlobalID",
+                    "node_id": "9cab302e-6756-11ea-a00c-acde48001122",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
                 {
                     "card_id": "9cab1f30-6756-11ea-a00c-acde48001122",
                     "config": {
@@ -169,26 +195,11 @@
                 {
                     "card_id": "9cab2548-6756-11ea-a00c-acde48001122",
                     "config": {
-                        "defaultValue": "",
-                        "label": "GlobalID",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "9cab3092-6756-11ea-a00c-acde48001122",
-                    "label": "GlobalID",
-                    "node_id": "9cab302e-6756-11ea-a00c-acde48001122",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "9cab2548-6756-11ea-a00c-acde48001122",
-                    "config": {
                         "defaultValue": null,
                         "label": "Facility Identifier",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9cab30d8-6756-11ea-a00c-acde48001122",
@@ -230,67 +241,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
                 {
-                    "card_id": "9cab15c6-6756-11ea-a00c-acde48001122",
-                    "config": {
-                        "basemap": "streets",
-                        "bearing": null,
-                        "centerX": 3,
-                        "centerY": null,
-                        "defaultValue": null,
-                        "defaultValueType": null,
-                        "featureColor": "#FF0000",
-                        "featureLineWidth": 1,
-                        "featurePointSize": 3,
-                        "geocodePlaceholder": "Search",
-                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
-                        "geocoderVisible": true,
-                        "geometryTypes": [
-                            {
-                                "id": "Point",
-                                "text": "Point"
-                            },
-                            {
-                                "id": "Line",
-                                "text": "Line"
-                            },
-                            {
-                                "id": "Polygon",
-                                "text": "Polygon"
-                            }
-                        ],
-                        "label": "geometry",
-                        "maxZoom": 20,
-                        "minZoom": null,
-                        "overlayConfigs": [],
-                        "overlayOpacity": null,
-                        "pitch": null,
-                        "rerender": true,
-                        "zoom": null
-                    },
-                    "id": "9cab32ae-6756-11ea-a00c-acde48001122",
-                    "label": "geometry",
-                    "node_id": "9cab2886-6756-11ea-a00c-acde48001122",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000007"
-                },
-                {
-                    "card_id": "9cab15c6-6756-11ea-a00c-acde48001122",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Location Description",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "9cab32e0-6756-11ea-a00c-acde48001122",
-                    "label": "Location Description",
-                    "node_id": "9cab2796-6756-11ea-a00c-acde48001122",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
                     "card_id": "9cab1f30-6756-11ea-a00c-acde48001122",
                     "config": {
                         "defaultValue": null,
@@ -316,6 +266,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9cab31c8-6756-11ea-a00c-acde48001122",
@@ -365,6 +316,7 @@
                         "label": "Last Editor",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9cab327c-6756-11ea-a00c-acde48001122",
@@ -373,6 +325,68 @@
                     "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "9cab15c6-6756-11ea-a00c-acde48001122",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Location Description",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "9cab32e0-6756-11ea-a00c-acde48001122",
+                    "label": "Location Description",
+                    "node_id": "9cab2796-6756-11ea-a00c-acde48001122",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "9cab15c6-6756-11ea-a00c-acde48001122",
+                    "config": {
+                        "basemap": "Light Streets",
+                        "bearing": null,
+                        "centerX": -88.15322294301768,
+                        "centerY": 41.763991365381486,
+                        "defaultValue": null,
+                        "defaultValueType": null,
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "geometry",
+                        "maxZoom": 20,
+                        "minZoom": null,
+                        "overlayConfigs": [],
+                        "overlayOpacity": null,
+                        "pitch": null,
+                        "rerender": true,
+                        "zoom": "13"
+                    },
+                    "id": "9cab32ae-6756-11ea-a00c-acde48001122",
+                    "label": "geometry",
+                    "node_id": "9cab2886-6756-11ea-a00c-acde48001122",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
                 }
             ],
             "color": null,
@@ -717,7 +731,7 @@
                     "nodeid": "9cab12e2-6756-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -735,10 +749,12 @@
                     "nodeid": "9cab16fc-6756-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -756,7 +772,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -807,7 +825,7 @@
                     "nodeid": "9cab1a62-6756-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -907,7 +925,7 @@
                     "nodeid": "9cab1d96-6756-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 5
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -945,7 +963,7 @@
                     "nodeid": "9cab20ac-6756-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1027,5 +1045,11 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "7f776fddb 2021-05-27 11:59:01 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
 }

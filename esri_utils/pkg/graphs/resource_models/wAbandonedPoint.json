@@ -46,15 +46,36 @@
                 },
                 {
                     "active": true,
+                    "cardid": "745e0f9c-6585-11ea-8095-acde48001122",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "745e0c22-6585-11ea-8095-acde48001122",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Properties",
+                    "nodegroup_id": "745e0d58-6585-11ea-8095-acde48001122",
+                    "sortorder": 1,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "745e138e-6585-11ea-8095-acde48001122",
                     "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
                     "config": {
-                        "centerX": 3,
-                        "centerY": 8.5,
+                        "basemap": "Light Streets",
+                        "centerX": -88.15429351405675,
+                        "centerY": 41.76438770760643,
+                        "overlayConfigs": [],
                         "selectSource": "",
                         "selectSourceLayer": "",
                         "selectText": "",
-                        "zoom": 0
+                        "zoom": "13"
                     },
                     "constraints": [
                         {
@@ -76,25 +97,6 @@
                     "nodegroup_id": "745e1168-6585-11ea-8095-acde48001122",
                     "sortorder": 4,
                     "visible": true
-                },
-                {
-                    "active": true,
-                    "cardid": "745e0f9c-6585-11ea-8095-acde48001122",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "745e0c22-6585-11ea-8095-acde48001122",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Properties",
-                    "nodegroup_id": "745e0d58-6585-11ea-8095-acde48001122",
-                    "sortorder": 1,
-                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
@@ -105,6 +107,7 @@
                         "label": "Facility Identifier",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "745e28ec-6585-11ea-8095-acde48001122",
@@ -121,6 +124,7 @@
                         "label": "GlobalID",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "745e291e-6585-11ea-8095-acde48001122",
@@ -194,6 +198,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "745e2784-6585-11ea-8095-acde48001122",
@@ -225,6 +230,7 @@
                         "label": "Last Editor",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "745e2888-6585-11ea-8095-acde48001122",
@@ -255,10 +261,10 @@
                 {
                     "card_id": "745e138e-6585-11ea-8095-acde48001122",
                     "config": {
-                        "basemap": "streets",
+                        "basemap": "Light Streets",
                         "bearing": null,
-                        "centerX": 3,
-                        "centerY": null,
+                        "centerX": -88.15429351405675,
+                        "centerY": 41.76438770760643,
                         "defaultValue": null,
                         "defaultValueType": null,
                         "featureColor": "#FF0000",
@@ -280,7 +286,7 @@
                         "overlayOpacity": null,
                         "pitch": null,
                         "rerender": true,
-                        "zoom": null
+                        "zoom": "13"
                     },
                     "id": "745e2950-6585-11ea-8095-acde48001122",
                     "label": "geometry",
@@ -545,10 +551,12 @@
                     "nodeid": "745e1168-6585-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -563,7 +571,7 @@
                     "nodeid": "745e220c-6585-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -581,7 +589,7 @@
                     "nodeid": "745e22de-6585-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -599,10 +607,12 @@
                     "nodeid": "745e14a6-6585-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -617,7 +627,7 @@
                     "nodeid": "745e23a6-6585-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -656,7 +666,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -689,7 +701,7 @@
                     "nodeid": "745e0d58-6585-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -812,5 +824,11 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "7f776fddb 2021-05-27 11:59:01 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
 }

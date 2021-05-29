@@ -49,12 +49,14 @@
                     "cardid": "e768d094-64f9-11ea-8095-acde48001122",
                     "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
                     "config": {
-                        "centerX": 3,
-                        "centerY": 8.5,
+                        "basemap": "Light Streets",
+                        "centerX": -88.15155155716195,
+                        "centerY": 41.77092381464274,
+                        "overlayConfigs": [],
                         "selectSource": "",
                         "selectSourceLayer": "",
                         "selectText": "",
-                        "zoom": 0
+                        "zoom": "13"
                     },
                     "constraints": [
                         {
@@ -152,43 +154,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000008"
                 },
                 {
-                    "card_id": "e768d094-64f9-11ea-8095-acde48001122",
-                    "config": {
-                        "basemap": "streets",
-                        "bearing": null,
-                        "centerX": 3,
-                        "centerY": null,
-                        "defaultValue": null,
-                        "defaultValueType": null,
-                        "featureColor": "#FF0000",
-                        "featureLineWidth": 1,
-                        "featurePointSize": 3,
-                        "geocodePlaceholder": "Search",
-                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
-                        "geocoderVisible": true,
-                        "geometryTypes": [
-                            {
-                                "id": "Polygon",
-                                "text": "Polygon"
-                            }
-                        ],
-                        "label": "geometry",
-                        "maxZoom": 20,
-                        "minZoom": null,
-                        "overlayConfigs": [],
-                        "overlayOpacity": null,
-                        "pitch": null,
-                        "rerender": true,
-                        "zoom": null
-                    },
-                    "id": "e768d35a-64f9-11ea-8095-acde48001122",
-                    "label": "geometry",
-                    "node_id": "e768d1ac-64f9-11ea-8095-acde48001122",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000007"
-                },
-                {
                     "card_id": "b1a566b4-591b-11ea-b5fa-a683e74f7416",
                     "config": {
                         "defaultValue": "",
@@ -219,6 +184,43 @@
                     "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "e768d094-64f9-11ea-8095-acde48001122",
+                    "config": {
+                        "basemap": "Light Streets",
+                        "bearing": null,
+                        "centerX": -88.15155155716195,
+                        "centerY": 41.77092381464274,
+                        "defaultValue": null,
+                        "defaultValueType": null,
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "geometry",
+                        "maxZoom": 20,
+                        "minZoom": null,
+                        "overlayConfigs": [],
+                        "overlayOpacity": null,
+                        "pitch": null,
+                        "rerender": true,
+                        "zoom": "13"
+                    },
+                    "id": "e768d35a-64f9-11ea-8095-acde48001122",
+                    "label": "geometry",
+                    "node_id": "e768d1ac-64f9-11ea-8095-acde48001122",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
                 }
             ],
             "color": null,
@@ -633,8 +635,8 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.1 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
-        "git hash": "1e2baa25b 2021-05-05 09:22:26 -0700",
+        "db": "PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "7f776fddb 2021-05-27 11:59:01 -0700",
         "os": "Darwin",
         "os version": "20.4.0"
     }

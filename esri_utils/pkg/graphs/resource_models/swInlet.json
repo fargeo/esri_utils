@@ -24,32 +24,6 @@
                 },
                 {
                     "active": true,
-                    "cardid": "d6b2eab8-67a7-11ea-a00c-acde48001122",
-                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
-                    "config": {
-                        "centerX": 3,
-                        "centerY": 8.5,
-                        "selectSource": "",
-                        "selectSourceLayer": "",
-                        "selectText": "",
-                        "zoom": 0
-                    },
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "d8b86be8-679e-11ea-a00c-acde48001122",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Location",
-                    "nodegroup_id": "d6b2e888-67a7-11ea-a00c-acde48001122",
-                    "sortorder": 5,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "d95a5a6c-67a7-11ea-a00c-acde48001122",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": {
@@ -154,6 +128,41 @@
                     "nodegroup_id": "d79a83e6-67a7-11ea-a00c-acde48001122",
                     "sortorder": 3,
                     "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "d6b2eab8-67a7-11ea-a00c-acde48001122",
+                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "config": {
+                        "basemap": "Light Streets",
+                        "centerX": -88.1511630064926,
+                        "centerY": 41.768172878550075,
+                        "overlayConfigs": [],
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "zoom": "13"
+                    },
+                    "constraints": [
+                        {
+                            "card_id": "d6b2eab8-67a7-11ea-a00c-acde48001122",
+                            "constraintid": "a9f3138c-3ff9-463e-876d-be7b0592b2b4",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "d8b86be8-679e-11ea-a00c-acde48001122",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Location",
+                    "nodegroup_id": "d6b2e888-67a7-11ea-a00c-acde48001122",
+                    "sortorder": 5,
+                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
@@ -170,6 +179,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "8b473e34-67b2-11ea-a00c-acde48001122",
@@ -225,22 +235,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
-                    "card_id": "d6b2eab8-67a7-11ea-a00c-acde48001122",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Location Description",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "d6b2ed6a-67a7-11ea-a00c-acde48001122",
-                    "label": "Location Description",
-                    "node_id": "d6b2ece8-67a7-11ea-a00c-acde48001122",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
                     "card_id": "d72d4f10-67a7-11ea-a00c-acde48001122",
                     "config": {
                         "defaultValue": null,
@@ -253,6 +247,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "d72d4fce-67a7-11ea-a00c-acde48001122",
@@ -275,6 +270,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "8b46af78-67b2-11ea-a00c-acde48001122",
@@ -398,6 +394,7 @@
                         "label": "Last Editor",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "1b6b22b0-67a8-11ea-a00c-acde48001122",
@@ -408,12 +405,63 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
+                    "card_id": "d95a5a6c-67a7-11ea-a00c-acde48001122",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Facility ID",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "d95a5d1e-67a7-11ea-a00c-acde48001122",
+                    "label": "Facility ID",
+                    "node_id": "d95a5b98-67a7-11ea-a00c-acde48001122",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "d95a5a6c-67a7-11ea-a00c-acde48001122",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "GlobalID",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "d95a5d64-67a7-11ea-a00c-acde48001122",
+                    "label": "GlobalID",
+                    "node_id": "d95a5c9c-67a7-11ea-a00c-acde48001122",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
                     "card_id": "d6b2eab8-67a7-11ea-a00c-acde48001122",
                     "config": {
-                        "basemap": "streets",
+                        "defaultValue": null,
+                        "label": "Location Description",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "d6b2ed6a-67a7-11ea-a00c-acde48001122",
+                    "label": "Location Description",
+                    "node_id": "d6b2ece8-67a7-11ea-a00c-acde48001122",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "d6b2eab8-67a7-11ea-a00c-acde48001122",
+                    "config": {
+                        "basemap": "Light Streets",
                         "bearing": null,
-                        "centerX": 3,
-                        "centerY": null,
+                        "centerX": -88.1511630064926,
+                        "centerY": 41.768172878550075,
                         "defaultValue": null,
                         "defaultValueType": null,
                         "featureColor": "#FF0000",
@@ -443,7 +491,7 @@
                         "overlayOpacity": null,
                         "pitch": null,
                         "rerender": true,
-                        "zoom": null
+                        "zoom": "13"
                     },
                     "id": "d6b2edb0-67a7-11ea-a00c-acde48001122",
                     "label": "geometry",
@@ -451,38 +499,6 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
-                },
-                {
-                    "card_id": "d95a5a6c-67a7-11ea-a00c-acde48001122",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Facility ID",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "d95a5d1e-67a7-11ea-a00c-acde48001122",
-                    "label": "Facility ID",
-                    "node_id": "d95a5b98-67a7-11ea-a00c-acde48001122",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "d95a5a6c-67a7-11ea-a00c-acde48001122",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "GlobalID",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "d95a5d64-67a7-11ea-a00c-acde48001122",
-                    "label": "GlobalID",
-                    "node_id": "d95a5c9c-67a7-11ea-a00c-acde48001122",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ],
             "color": null,
@@ -916,7 +932,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -934,7 +952,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -1245,5 +1265,11 @@
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "7f776fddb 2021-05-27 11:59:01 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
 }

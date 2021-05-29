@@ -5,32 +5,6 @@
             "cards": [
                 {
                     "active": true,
-                    "cardid": "b33863e6-6717-11ea-a00c-acde48001122",
-                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
-                    "config": {
-                        "centerX": 3,
-                        "centerY": 8.5,
-                        "selectSource": "",
-                        "selectSourceLayer": "",
-                        "selectText": "",
-                        "zoom": 0
-                    },
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "7c06cb1a-6717-11ea-a00c-acde48001122",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Location",
-                    "nodegroup_id": "b33861ca-6717-11ea-a00c-acde48001122",
-                    "sortorder": null,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "b3d5abba-6717-11ea-a00c-acde48001122",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -126,6 +100,41 @@
                     "nodegroup_id": "b69c2a54-6717-11ea-a00c-acde48001122",
                     "sortorder": 1,
                     "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "b33863e6-6717-11ea-a00c-acde48001122",
+                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "config": {
+                        "basemap": "Light Streets",
+                        "centerX": -88.14953127621982,
+                        "centerY": 41.76391238181827,
+                        "overlayConfigs": [],
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "zoom": "13"
+                    },
+                    "constraints": [
+                        {
+                            "card_id": "b33863e6-6717-11ea-a00c-acde48001122",
+                            "constraintid": "1ff82199-cf0b-4cb8-ad6e-d6b3365a7953",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "7c06cb1a-6717-11ea-a00c-acde48001122",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Location",
+                    "nodegroup_id": "b33861ca-6717-11ea-a00c-acde48001122",
+                    "sortorder": null,
+                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
@@ -162,51 +171,6 @@
                     "sortorder": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "b33863e6-6717-11ea-a00c-acde48001122",
-                    "config": {
-                        "basemap": "streets",
-                        "bearing": null,
-                        "centerX": 3,
-                        "centerY": null,
-                        "defaultValue": null,
-                        "defaultValueType": null,
-                        "featureColor": "#FF0000",
-                        "featureLineWidth": 1,
-                        "featurePointSize": 3,
-                        "geocodePlaceholder": "Search",
-                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
-                        "geocoderVisible": true,
-                        "geometryTypes": [
-                            {
-                                "id": "Point",
-                                "text": "Point"
-                            },
-                            {
-                                "id": "Line",
-                                "text": "Line"
-                            },
-                            {
-                                "id": "Polygon",
-                                "text": "Polygon"
-                            }
-                        ],
-                        "label": "geometry",
-                        "maxZoom": 20,
-                        "minZoom": null,
-                        "overlayConfigs": [],
-                        "overlayOpacity": null,
-                        "pitch": null,
-                        "rerender": true,
-                        "zoom": null
-                    },
-                    "id": "b33866ac-6717-11ea-a00c-acde48001122",
-                    "label": "geometry",
-                    "node_id": "b33864fe-6717-11ea-a00c-acde48001122",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
                 {
                     "card_id": "b3d5abba-6717-11ea-a00c-acde48001122",
@@ -356,6 +320,51 @@
                     "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "b33863e6-6717-11ea-a00c-acde48001122",
+                    "config": {
+                        "basemap": "Light Streets",
+                        "bearing": null,
+                        "centerX": -88.14953127621982,
+                        "centerY": 41.76391238181827,
+                        "defaultValue": null,
+                        "defaultValueType": null,
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "geometry",
+                        "maxZoom": 20,
+                        "minZoom": null,
+                        "overlayConfigs": [],
+                        "overlayOpacity": null,
+                        "pitch": null,
+                        "rerender": true,
+                        "zoom": "13"
+                    },
+                    "id": "b33866ac-6717-11ea-a00c-acde48001122",
+                    "label": "geometry",
+                    "node_id": "b33864fe-6717-11ea-a00c-acde48001122",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
                 }
             ],
             "color": null,
@@ -1041,8 +1050,8 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.1 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
-        "git hash": "1e2baa25b 2021-05-05 09:22:26 -0700",
+        "db": "PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "7f776fddb 2021-05-27 11:59:01 -0700",
         "os": "Darwin",
         "os version": "20.4.0"
     }

@@ -131,32 +131,6 @@
                 },
                 {
                     "active": true,
-                    "cardid": "56486996-5a89-11ea-92c4-acde48001122",
-                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
-                    "config": {
-                        "centerX": 3,
-                        "centerY": 8.5,
-                        "selectSource": "",
-                        "selectSourceLayer": "",
-                        "selectText": "",
-                        "zoom": 0
-                    },
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "4d7e7b52-5a89-11ea-92c4-acde48001122",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": false,
-                    "name": "Location",
-                    "nodegroup_id": "56486770-5a89-11ea-92c4-acde48001122",
-                    "sortorder": null,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "66ee002a-be66-11eb-ad8c-aae9fe8789ac",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -171,6 +145,41 @@
                     "is_editable": true,
                     "name": "Activity",
                     "nodegroup_id": "66edfe36-be66-11eb-ad8c-aae9fe8789ac",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "56486996-5a89-11ea-92c4-acde48001122",
+                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "config": {
+                        "basemap": "streets",
+                        "centerX": -88.15896113588133,
+                        "centerY": 41.76157712746394,
+                        "overlayConfigs": [],
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "zoom": "13"
+                    },
+                    "constraints": [
+                        {
+                            "card_id": "56486996-5a89-11ea-92c4-acde48001122",
+                            "constraintid": "386e61a3-3f26-4244-ab48-ede8cf10ffda",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "4d7e7b52-5a89-11ea-92c4-acde48001122",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": false,
+                    "name": "Location",
+                    "nodegroup_id": "56486770-5a89-11ea-92c4-acde48001122",
                     "sortorder": null,
                     "visible": true
                 }
@@ -358,12 +367,42 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
+                    "card_id": "66ee002a-be66-11eb-ad8c-aae9fe8789ac",
+                    "config": {
+                        "label": "Activity",
+                        "placeholder": ""
+                    },
+                    "id": "66ee00ca-be66-11eb-ad8c-aae9fe8789ac",
+                    "label": "Activity",
+                    "node_id": "66edfe36-be66-11eb-ad8c-aae9fe8789ac",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "56486996-5a89-11ea-92c4-acde48001122",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Location Description",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "56486c3e-5a89-11ea-92c4-acde48001122",
+                    "label": "Location Description",
+                    "node_id": "56486bbc-5a89-11ea-92c4-acde48001122",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
                     "card_id": "56486996-5a89-11ea-92c4-acde48001122",
                     "config": {
                         "basemap": "streets",
                         "bearing": null,
-                        "centerX": 3,
-                        "centerY": null,
+                        "centerX": -88.15896113588133,
+                        "centerY": 41.76157712746394,
                         "defaultValue": null,
                         "defaultValueType": null,
                         "featureColor": "#FF0000",
@@ -393,7 +432,7 @@
                         "overlayOpacity": null,
                         "pitch": null,
                         "rerender": true,
-                        "zoom": null
+                        "zoom": "13"
                     },
                     "id": "56486c84-5a89-11ea-92c4-acde48001122",
                     "label": "geometry",
@@ -401,36 +440,6 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
-                },
-                {
-                    "card_id": "56486996-5a89-11ea-92c4-acde48001122",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Location Description",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "56486c3e-5a89-11ea-92c4-acde48001122",
-                    "label": "Location Description",
-                    "node_id": "56486bbc-5a89-11ea-92c4-acde48001122",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "66ee002a-be66-11eb-ad8c-aae9fe8789ac",
-                    "config": {
-                        "label": "Activity",
-                        "placeholder": ""
-                    },
-                    "id": "66ee00ca-be66-11eb-ad8c-aae9fe8789ac",
-                    "label": "Activity",
-                    "node_id": "66edfe36-be66-11eb-ad8c-aae9fe8789ac",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 }
             ],
             "color": null,
@@ -663,7 +672,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "4d7e7b52-5a89-11ea-92c4-acde48001122",
-                    "id": "1124a768-bf09-11eb-94e3-aae9fe8789ac"
+                    "id": "b546e73a-bfe9-11eb-b077-acde48001122"
                 }
             ],
             "graphid": "4d7e7b52-5a89-11ea-92c4-acde48001122",
@@ -1152,8 +1161,8 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.1 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
-        "git hash": "1e2baa25b 2021-05-05 09:22:26 -0700",
+        "db": "PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "7f776fddb 2021-05-27 11:59:01 -0700",
         "os": "Darwin",
         "os version": "20.4.0"
     }

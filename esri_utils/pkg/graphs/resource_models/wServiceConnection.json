@@ -49,7 +49,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Installation & Updates",
                     "nodegroup_id": "9db38b94-5872-11ea-b5fa-a683e74f7416",
                     "sortorder": 3,
@@ -107,7 +107,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Status",
                     "nodegroup_id": "9d0b032a-5872-11ea-b5fa-a683e74f7416",
                     "sortorder": 2,
@@ -168,43 +168,10 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Identifications",
                     "nodegroup_id": "9bca0ef2-5872-11ea-b5fa-a683e74f7416",
                     "sortorder": 0,
-                    "visible": true
-                },
-                {
-                    "active": true,
-                    "cardid": "9e4c98ac-5872-11ea-b5fa-a683e74f7416",
-                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
-                    "config": {
-                        "centerX": 3,
-                        "centerY": 8.5,
-                        "selectSource": "",
-                        "selectSourceLayer": "",
-                        "selectText": "",
-                        "zoom": 0
-                    },
-                    "constraints": [
-                        {
-                            "card_id": "9e4c98ac-5872-11ea-b5fa-a683e74f7416",
-                            "constraintid": "82f96749-bd05-446b-9158-1f2c8f376f9f",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "803741dc-5872-11ea-b5fa-a683e74f7416",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": false,
-                    "name": "Location",
-                    "nodegroup_id": "9e4c967c-5872-11ea-b5fa-a683e74f7416",
-                    "sortorder": 5,
                     "visible": true
                 },
                 {
@@ -231,6 +198,41 @@
                     "name": "Activity",
                     "nodegroup_id": "ddb533cc-bdd5-11eb-92a7-aae9fe8789ac",
                     "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "9e4c98ac-5872-11ea-b5fa-a683e74f7416",
+                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "config": {
+                        "basemap": "streets",
+                        "centerX": -88.15269157656451,
+                        "centerY": 41.76686878067591,
+                        "overlayConfigs": [],
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "zoom": "13"
+                    },
+                    "constraints": [
+                        {
+                            "card_id": "9e4c98ac-5872-11ea-b5fa-a683e74f7416",
+                            "constraintid": "82f96749-bd05-446b-9158-1f2c8f376f9f",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "803741dc-5872-11ea-b5fa-a683e74f7416",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Location",
+                    "nodegroup_id": "9e4c967c-5872-11ea-b5fa-a683e74f7416",
+                    "sortorder": 5,
                     "visible": true
                 }
             ],
@@ -461,6 +463,19 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
+                    "card_id": "ddb535a2-bdd5-11eb-92a7-aae9fe8789ac",
+                    "config": {
+                        "label": "Activity",
+                        "placeholder": ""
+                    },
+                    "id": "ddb53638-bdd5-11eb-92a7-aae9fe8789ac",
+                    "label": "Activity",
+                    "node_id": "ddb533cc-bdd5-11eb-92a7-aae9fe8789ac",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
                     "card_id": "9e4c98ac-5872-11ea-b5fa-a683e74f7416",
                     "config": {
                         "defaultValue": null,
@@ -499,8 +514,8 @@
                     "config": {
                         "basemap": "streets",
                         "bearing": null,
-                        "centerX": 3,
-                        "centerY": null,
+                        "centerX": -88.15269157656451,
+                        "centerY": 41.76686878067591,
                         "defaultValue": null,
                         "defaultValueType": null,
                         "featureColor": "#FF0000",
@@ -522,7 +537,7 @@
                         "overlayOpacity": null,
                         "pitch": null,
                         "rerender": true,
-                        "zoom": null
+                        "zoom": "13"
                     },
                     "id": "9e4c9b9a-5872-11ea-b5fa-a683e74f7416",
                     "label": "geometry",
@@ -530,19 +545,6 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
-                },
-                {
-                    "card_id": "ddb535a2-bdd5-11eb-92a7-aae9fe8789ac",
-                    "config": {
-                        "label": "Activity",
-                        "placeholder": ""
-                    },
-                    "id": "ddb53638-bdd5-11eb-92a7-aae9fe8789ac",
-                    "label": "Activity",
-                    "node_id": "ddb533cc-bdd5-11eb-92a7-aae9fe8789ac",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 }
             ],
             "color": null,
@@ -804,7 +806,7 @@
             "functions_x_graphs": [],
             "graphid": "803741dc-5872-11ea-b5fa-a683e74f7416",
             "iconclass": "fa fa-university",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -1390,8 +1392,8 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.1 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
-        "git hash": "d084e2885 2021-04-19 09:10:08 -0700",
+        "db": "PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "7f776fddb 2021-05-27 11:59:01 -0700",
         "os": "Darwin",
         "os version": "20.4.0"
     }

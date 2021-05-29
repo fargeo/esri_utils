@@ -115,12 +115,14 @@
                     "cardid": "19aec6e4-6581-11ea-8095-acde48001122",
                     "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
                     "config": {
-                        "centerX": 3,
-                        "centerY": 8.5,
+                        "basemap": "Light Streets",
+                        "centerX": -88.15298391996407,
+                        "centerY": 41.768314799889936,
+                        "overlayConfigs": [],
                         "selectSource": "",
                         "selectSourceLayer": "",
                         "selectText": "",
-                        "zoom": 0
+                        "zoom": "13"
                     },
                     "constraints": [
                         {
@@ -201,6 +203,7 @@
                         "label": "Last Editor",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "dca6189a-6582-11ea-8095-acde48001122",
@@ -256,6 +259,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "6659ee82-6582-11ea-8095-acde48001122",
@@ -281,12 +285,46 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
+                    "card_id": "1c9966b6-6581-11ea-8095-acde48001122",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Facility Identifier",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "1c996936-6581-11ea-8095-acde48001122",
+                    "label": "Facility Identifier",
+                    "node_id": "1c9967ce-6581-11ea-8095-acde48001122",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "1c9966b6-6581-11ea-8095-acde48001122",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "GlobalID",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "1c996972-6581-11ea-8095-acde48001122",
+                    "label": "GlobalID",
+                    "node_id": "1c9968be-6581-11ea-8095-acde48001122",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
                     "card_id": "19aec6e4-6581-11ea-8095-acde48001122",
                     "config": {
-                        "basemap": "streets",
+                        "basemap": "Light Streets",
                         "bearing": null,
-                        "centerX": 3,
-                        "centerY": null,
+                        "centerX": -88.15298391996407,
+                        "centerY": 41.768314799889936,
                         "defaultValue": null,
                         "defaultValueType": null,
                         "featureColor": "#FF0000",
@@ -308,7 +346,7 @@
                         "overlayOpacity": null,
                         "pitch": null,
                         "rerender": true,
-                        "zoom": null
+                        "zoom": "13"
                     },
                     "id": "19aec9dc-6581-11ea-8095-acde48001122",
                     "label": "geometry",
@@ -316,38 +354,6 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
-                },
-                {
-                    "card_id": "1c9966b6-6581-11ea-8095-acde48001122",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Facility Identifier",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "1c996936-6581-11ea-8095-acde48001122",
-                    "label": "Facility Identifier",
-                    "node_id": "1c9967ce-6581-11ea-8095-acde48001122",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "1c9966b6-6581-11ea-8095-acde48001122",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "GlobalID",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "1c996972-6581-11ea-8095-acde48001122",
-                    "label": "GlobalID",
-                    "node_id": "1c9968be-6581-11ea-8095-acde48001122",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ],
             "color": null,
@@ -668,7 +674,7 @@
                     "nodeid": "19aec4c8-6581-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -724,10 +730,12 @@
                     "nodeid": "6659e7c0-6582-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -742,10 +750,12 @@
                     "nodeid": "1ac0fba6-6581-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -760,7 +770,7 @@
                     "nodeid": "1ac0fcbe-6581-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -778,7 +788,7 @@
                     "nodeid": "1ac0fde0-6581-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -796,7 +806,7 @@
                     "nodeid": "1ac0f782-6581-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -853,7 +863,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -907,7 +919,7 @@
                     "nodeid": "58e7b316-6581-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 }
             ],
             "ontology_id": null,
@@ -935,5 +947,11 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "7f776fddb 2021-05-27 11:59:01 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
 }

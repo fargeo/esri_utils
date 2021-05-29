@@ -56,14 +56,23 @@
                     "cardid": "d1b7626a-64f9-11ea-8095-acde48001122",
                     "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
                     "config": {
-                        "centerX": 3,
-                        "centerY": 8.5,
+                        "basemap": "Light Streets",
+                        "centerX": -88.15612480409942,
+                        "centerY": 41.76193922158558,
+                        "overlayConfigs": [],
                         "selectSource": "",
                         "selectSourceLayer": "",
                         "selectText": "",
-                        "zoom": 0
+                        "zoom": "13"
                     },
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "d1b7626a-64f9-11ea-8095-acde48001122",
+                            "constraintid": "e8676b3c-b071-4173-9f54-d49517f6521a",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "032c05d6-64f9-11ea-8095-acde48001122",
@@ -86,6 +95,7 @@
                         "label": "GlobalID",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "24c88cdc-64f9-11ea-8095-acde48001122",
@@ -120,6 +130,7 @@
                         "label": "Last Editor",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "3c281992-64f9-11ea-8095-acde48001122",
@@ -132,10 +143,10 @@
                 {
                     "card_id": "d1b7626a-64f9-11ea-8095-acde48001122",
                     "config": {
-                        "basemap": "streets",
+                        "basemap": "Light Streets",
                         "bearing": null,
-                        "centerX": 3,
-                        "centerY": null,
+                        "centerX": -88.15612480409942,
+                        "centerY": 41.76193922158558,
                         "defaultValue": null,
                         "defaultValueType": null,
                         "featureColor": "#FF0000",
@@ -165,7 +176,7 @@
                         "overlayOpacity": null,
                         "pitch": null,
                         "rerender": true,
-                        "zoom": null
+                        "zoom": "13"
                     },
                     "id": "d1b7656c-64f9-11ea-8095-acde48001122",
                     "label": "geometry",
@@ -326,7 +337,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -377,7 +390,7 @@
                     "nodeid": "138df6be-64f9-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -436,7 +449,7 @@
                     "nodeid": "d1b76026-64f9-11ea-8095-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -500,5 +513,11 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "7f776fddb 2021-05-27 11:59:01 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
 }

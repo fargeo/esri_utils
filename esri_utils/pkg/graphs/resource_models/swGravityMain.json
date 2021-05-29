@@ -76,32 +76,6 @@
                 },
                 {
                     "active": true,
-                    "cardid": "9f6d0172-6759-11ea-a00c-acde48001122",
-                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
-                    "config": {
-                        "centerX": 3,
-                        "centerY": 8.5,
-                        "selectSource": "",
-                        "selectSourceLayer": "",
-                        "selectText": "",
-                        "zoom": 0
-                    },
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "3e5a3e86-6759-11ea-a00c-acde48001122",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Location",
-                    "nodegroup_id": "9f6cff42-6759-11ea-a00c-acde48001122",
-                    "sortorder": 5,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "a25c4226-6759-11ea-a00c-acde48001122",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": {
@@ -154,6 +128,41 @@
                     "nodegroup_id": "a1ac814c-6759-11ea-a00c-acde48001122",
                     "sortorder": 1,
                     "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "9f6d0172-6759-11ea-a00c-acde48001122",
+                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "config": {
+                        "basemap": "Light Streets",
+                        "centerX": -88.1514368808879,
+                        "centerY": 41.76715911156083,
+                        "overlayConfigs": [],
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "zoom": "13"
+                    },
+                    "constraints": [
+                        {
+                            "card_id": "9f6d0172-6759-11ea-a00c-acde48001122",
+                            "constraintid": "c722ee5b-9974-4136-9608-d4c5ea5fc071",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "3e5a3e86-6759-11ea-a00c-acde48001122",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Location",
+                    "nodegroup_id": "9f6cff42-6759-11ea-a00c-acde48001122",
+                    "sortorder": 5,
+                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
@@ -183,6 +192,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9feaa258-6759-11ea-a00c-acde48001122",
@@ -191,22 +201,6 @@
                     "sortorder": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000008"
-                },
-                {
-                    "card_id": "9f6d0172-6759-11ea-a00c-acde48001122",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Location Description",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "9f6d0488-6759-11ea-a00c-acde48001122",
-                    "label": "Location Description",
-                    "node_id": "9f6d0410-6759-11ea-a00c-acde48001122",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "a10bf056-6759-11ea-a00c-acde48001122",
@@ -245,6 +239,7 @@
                         "label": "From Manhole",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "77d1d4d8-675b-11ea-a00c-acde48001122",
@@ -261,6 +256,7 @@
                         "label": "Slope",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "77d2668c-675b-11ea-a00c-acde48001122",
@@ -283,6 +279,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "77d2ccee-675b-11ea-a00c-acde48001122",
@@ -305,6 +302,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "77d336b6-675b-11ea-a00c-acde48001122",
@@ -349,6 +347,7 @@
                         "label": "Last Editor",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "e32ed928-675c-11ea-a00c-acde48001122",
@@ -359,57 +358,13 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
-                    "card_id": "9f6d0172-6759-11ea-a00c-acde48001122",
-                    "config": {
-                        "basemap": "streets",
-                        "bearing": null,
-                        "centerX": 3,
-                        "centerY": null,
-                        "defaultValue": null,
-                        "defaultValueType": null,
-                        "featureColor": "#FF0000",
-                        "featureLineWidth": 1,
-                        "featurePointSize": 3,
-                        "geocodePlaceholder": "Search",
-                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
-                        "geocoderVisible": true,
-                        "geometryTypes": [
-                            {
-                                "id": "Point",
-                                "text": "Point"
-                            },
-                            {
-                                "id": "Line",
-                                "text": "Line"
-                            },
-                            {
-                                "id": "Polygon",
-                                "text": "Polygon"
-                            }
-                        ],
-                        "label": "geometry",
-                        "maxZoom": 20,
-                        "minZoom": null,
-                        "overlayConfigs": [],
-                        "overlayOpacity": null,
-                        "pitch": null,
-                        "rerender": true,
-                        "zoom": null
-                    },
-                    "id": "9f6d04ce-6759-11ea-a00c-acde48001122",
-                    "label": "geometry",
-                    "node_id": "9f6d030c-6759-11ea-a00c-acde48001122",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000007"
-                },
-                {
                     "card_id": "a25c4226-6759-11ea-a00c-acde48001122",
                     "config": {
                         "defaultValue": null,
                         "label": "Facility Identifier",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "a25c44b0-6759-11ea-a00c-acde48001122",
@@ -426,6 +381,7 @@
                         "label": "GlobalID",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "a25c44f6-6759-11ea-a00c-acde48001122",
@@ -442,6 +398,7 @@
                         "label": "Liner Type",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "77d3a1e6-675b-11ea-a00c-acde48001122",
@@ -458,6 +415,7 @@
                         "label": "Year Lined",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "77d4026c-675b-11ea-a00c-acde48001122",
@@ -474,12 +432,30 @@
                         "label": "Pipe Type",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "77d462fc-675b-11ea-a00c-acde48001122",
                     "label": "Pipe Type",
                     "node_id": "96baf6c8-675a-11ea-a00c-acde48001122",
                     "sortorder": 7,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "9f6d0172-6759-11ea-a00c-acde48001122",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Location Description",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "9f6d0488-6759-11ea-a00c-acde48001122",
+                    "label": "Location Description",
+                    "node_id": "9f6d0410-6759-11ea-a00c-acde48001122",
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -541,6 +517,7 @@
                         "label": "To Manhole",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "77d521ba-675b-11ea-a00c-acde48001122",
@@ -563,6 +540,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "a1ac87e6-6759-11ea-a00c-acde48001122",
@@ -585,6 +563,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "8d3f36ac-675c-11ea-a00c-acde48001122",
@@ -593,6 +572,51 @@
                     "sortorder": 11,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "9f6d0172-6759-11ea-a00c-acde48001122",
+                    "config": {
+                        "basemap": "Light Streets",
+                        "bearing": null,
+                        "centerX": -88.1514368808879,
+                        "centerY": 41.76715911156083,
+                        "defaultValue": null,
+                        "defaultValueType": null,
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "geometry",
+                        "maxZoom": 20,
+                        "minZoom": null,
+                        "overlayConfigs": [],
+                        "overlayOpacity": null,
+                        "pitch": null,
+                        "rerender": true,
+                        "zoom": "13"
+                    },
+                    "id": "9f6d04ce-6759-11ea-a00c-acde48001122",
+                    "label": "geometry",
+                    "node_id": "9f6d030c-6759-11ea-a00c-acde48001122",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
                 }
             ],
             "color": null,
@@ -944,7 +968,7 @@
                     "nodeid": "0922ba70-675b-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 10
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -962,7 +986,7 @@
                     "nodeid": "0ae48636-675b-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 9
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -1098,7 +1122,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -1116,7 +1142,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -1285,7 +1313,7 @@
                     "nodeid": "a1ac8674-6759-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -1395,7 +1423,7 @@
                     "nodeid": "91971fdc-675a-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 8
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1413,7 +1441,7 @@
                     "nodeid": "928152fa-675a-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 7
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1431,7 +1459,7 @@
                     "nodeid": "9338b18e-675a-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 6
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1449,7 +1477,7 @@
                     "nodeid": "9492789e-675a-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1467,7 +1495,7 @@
                     "nodeid": "96baf6c8-675a-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -1487,7 +1515,7 @@
                     "nodeid": "97615cd4-675a-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 }
             ],
             "ontology_id": null,
@@ -1515,5 +1543,11 @@
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "7f776fddb 2021-05-27 11:59:01 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
 }

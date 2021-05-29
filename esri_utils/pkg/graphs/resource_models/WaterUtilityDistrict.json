@@ -5,39 +5,6 @@
             "cards": [
                 {
                     "active": true,
-                    "cardid": "97283ac6-58be-11ea-b5fa-a683e74f7416",
-                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
-                    "config": {
-                        "centerX": 3,
-                        "centerY": 8.5,
-                        "selectSource": "",
-                        "selectSourceLayer": "",
-                        "selectText": "",
-                        "zoom": 0
-                    },
-                    "constraints": [
-                        {
-                            "card_id": "97283ac6-58be-11ea-b5fa-a683e74f7416",
-                            "constraintid": "c72bd127-5df9-4a5d-9320-a4d109ad9ae7",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "3e4ed7e8-58be-11ea-b5fa-a683e74f7416",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Location",
-                    "nodegroup_id": "97283850-58be-11ea-b5fa-a683e74f7416",
-                    "sortorder": 3,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "83dc5c90-58be-11ea-b5fa-a683e74f7416",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": {
@@ -122,6 +89,41 @@
                     "nodegroup_id": "935ace18-58be-11ea-b5fa-a683e74f7416",
                     "sortorder": 1,
                     "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "97283ac6-58be-11ea-b5fa-a683e74f7416",
+                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "config": {
+                        "basemap": "Light Streets",
+                        "centerX": -88.14944010791055,
+                        "centerY": 41.77311277045385,
+                        "overlayConfigs": [],
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "zoom": "13"
+                    },
+                    "constraints": [
+                        {
+                            "card_id": "97283ac6-58be-11ea-b5fa-a683e74f7416",
+                            "constraintid": "c72bd127-5df9-4a5d-9320-a4d109ad9ae7",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "3e4ed7e8-58be-11ea-b5fa-a683e74f7416",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Location",
+                    "nodegroup_id": "97283850-58be-11ea-b5fa-a683e74f7416",
+                    "sortorder": 3,
+                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
@@ -132,6 +134,7 @@
                         "label": "District ID",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "83dc5f38-58be-11ea-b5fa-a683e74f7416",
@@ -148,6 +151,7 @@
                         "label": "GlobalID",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "83dc5f7e-58be-11ea-b5fa-a683e74f7416",
@@ -164,6 +168,7 @@
                         "label": "Contact Name\t",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "6fcd6392-58bf-11ea-b5fa-a683e74f7416",
@@ -180,6 +185,7 @@
                         "label": "Phone",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "6fcf07c4-58bf-11ea-b5fa-a683e74f7416",
@@ -196,6 +202,7 @@
                         "label": "Email",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "6fcf66c4-58bf-11ea-b5fa-a683e74f7416",
@@ -219,6 +226,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "935ad57a-58be-11ea-b5fa-a683e74f7416",
@@ -251,6 +259,7 @@
                         "maxLength": null,
                         "options": [],
                         "placeholder": "Select an option",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "935ad4c6-58be-11ea-b5fa-a683e74f7416",
@@ -261,12 +270,29 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
+                    "card_id": "e18ab40e-58be-11ea-b5fa-a683e74f7416",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Website",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "6fcea68a-58bf-11ea-b5fa-a683e74f7416",
+                    "label": "Website",
+                    "node_id": "ea1af372-58be-11ea-b5fa-a683e74f7416",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
                     "card_id": "97283ac6-58be-11ea-b5fa-a683e74f7416",
                     "config": {
-                        "basemap": "streets",
+                        "basemap": "Light Streets",
                         "bearing": null,
-                        "centerX": 3,
-                        "centerY": null,
+                        "centerX": -88.14944010791055,
+                        "centerY": 41.77311277045385,
                         "defaultValue": null,
                         "defaultValueType": null,
                         "featureColor": "#FF0000",
@@ -288,7 +314,7 @@
                         "overlayOpacity": null,
                         "pitch": null,
                         "rerender": true,
-                        "zoom": null
+                        "zoom": "13"
                     },
                     "id": "97283ddc-58be-11ea-b5fa-a683e74f7416",
                     "label": "geometry",
@@ -296,22 +322,6 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
-                },
-                {
-                    "card_id": "e18ab40e-58be-11ea-b5fa-a683e74f7416",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Website",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "6fcea68a-58bf-11ea-b5fa-a683e74f7416",
-                    "label": "Website",
-                    "node_id": "ea1af372-58be-11ea-b5fa-a683e74f7416",
-                    "sortorder": 3,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ],
             "color": null,
@@ -552,7 +562,7 @@
                     "nodeid": "e18a7c82-58be-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -644,7 +654,7 @@
                     "nodeid": "935ace18-58be-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -757,7 +767,7 @@
                     "nodeid": "97283850-58be-11ea-b5fa-a683e74f7416",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -803,5 +813,11 @@
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "7f776fddb 2021-05-27 11:59:01 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
 }

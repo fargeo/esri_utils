@@ -105,32 +105,6 @@
                 },
                 {
                     "active": true,
-                    "cardid": "fbb2ddbc-6740-11ea-a00c-acde48001122",
-                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
-                    "config": {
-                        "centerX": 3,
-                        "centerY": 8.5,
-                        "selectSource": "",
-                        "selectSourceLayer": "",
-                        "selectText": "",
-                        "zoom": 0
-                    },
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "e6fa0706-6740-11ea-a00c-acde48001122",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Location",
-                    "nodegroup_id": "fbb2db82-6740-11ea-a00c-acde48001122",
-                    "sortorder": null,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "f92d58b0-6740-11ea-a00c-acde48001122",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -153,6 +127,41 @@
                     "name": "Properties",
                     "nodegroup_id": "f92d564e-6740-11ea-a00c-acde48001122",
                     "sortorder": 2,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "fbb2ddbc-6740-11ea-a00c-acde48001122",
+                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "config": {
+                        "basemap": "Light Streets",
+                        "centerX": -88.15406450006321,
+                        "centerY": 41.76705809269305,
+                        "overlayConfigs": [],
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "zoom": "13"
+                    },
+                    "constraints": [
+                        {
+                            "card_id": "fbb2ddbc-6740-11ea-a00c-acde48001122",
+                            "constraintid": "42635687-0a6b-4a89-be24-0fdb57498806",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "e6fa0706-6740-11ea-a00c-acde48001122",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Location",
+                    "nodegroup_id": "fbb2db82-6740-11ea-a00c-acde48001122",
+                    "sortorder": null,
                     "visible": true
                 }
             ],
@@ -220,6 +229,7 @@
                         "label": "GlobalID",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f8a88d92-6740-11ea-a00c-acde48001122",
@@ -242,6 +252,7 @@
                         "prefix": null,
                         "step": null,
                         "suffix": null,
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "fb2e3710-6740-11ea-a00c-acde48001122",
@@ -258,6 +269,7 @@
                         "label": "Permit Identifier",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5ac1c868-6755-11ea-a00c-acde48001122",
@@ -274,6 +286,7 @@
                         "label": "Facility Identifier",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f8a88d4c-6740-11ea-a00c-acde48001122",
@@ -303,6 +316,7 @@
                         "label": "Peak Discharge",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5ac283c0-6755-11ea-a00c-acde48001122",
@@ -385,6 +399,7 @@
                         "label": "Last Editor",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "c962c740-6755-11ea-a00c-acde48001122",
@@ -395,12 +410,70 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
+                    "card_id": "f92d58b0-6740-11ea-a00c-acde48001122",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Discharge Identifier",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "5ac33e28-6755-11ea-a00c-acde48001122",
+                    "label": "Discharge Identifier",
+                    "node_id": "3c6ed108-6741-11ea-a00c-acde48001122",
+                    "sortorder": 5,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "f92d58b0-6740-11ea-a00c-acde48001122",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Average Discharge",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "5ac4004c-6755-11ea-a00c-acde48001122",
+                    "label": "Average Discharge",
+                    "node_id": "3ce50544-6741-11ea-a00c-acde48001122",
+                    "sortorder": 7,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "f92d58b0-6740-11ea-a00c-acde48001122",
+                    "config": {
+                        "defaultValue": null,
+                        "format": null,
+                        "label": "Diameter",
+                        "max": null,
+                        "min": null,
+                        "placeholder": "Enter number",
+                        "precision": null,
+                        "prefix": null,
+                        "step": null,
+                        "suffix": null,
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "5ac12c8c-6755-11ea-a00c-acde48001122",
+                    "label": "Diameter",
+                    "node_id": "394b4d12-6741-11ea-a00c-acde48001122",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
                     "card_id": "fbb2ddbc-6740-11ea-a00c-acde48001122",
                     "config": {
                         "defaultValue": null,
                         "label": "Location Description",
                         "maxLength": null,
                         "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "fbb2e05a-6740-11ea-a00c-acde48001122",
@@ -413,10 +486,10 @@
                 {
                     "card_id": "fbb2ddbc-6740-11ea-a00c-acde48001122",
                     "config": {
-                        "basemap": "streets",
+                        "basemap": "Light Streets",
                         "bearing": null,
-                        "centerX": 3,
-                        "centerY": null,
+                        "centerX": -88.15406450006321,
+                        "centerY": 41.76705809269305,
                         "defaultValue": null,
                         "defaultValueType": null,
                         "featureColor": "#FF0000",
@@ -446,7 +519,7 @@
                         "overlayOpacity": null,
                         "pitch": null,
                         "rerender": true,
-                        "zoom": null
+                        "zoom": "13"
                     },
                     "id": "fbb2e0a0-6740-11ea-a00c-acde48001122",
                     "label": "geometry",
@@ -454,60 +527,6 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
-                },
-                {
-                    "card_id": "f92d58b0-6740-11ea-a00c-acde48001122",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Discharge Identifier",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "5ac33e28-6755-11ea-a00c-acde48001122",
-                    "label": "Discharge Identifier",
-                    "node_id": "3c6ed108-6741-11ea-a00c-acde48001122",
-                    "sortorder": 5,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "f92d58b0-6740-11ea-a00c-acde48001122",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Average Discharge",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "5ac4004c-6755-11ea-a00c-acde48001122",
-                    "label": "Average Discharge",
-                    "node_id": "3ce50544-6741-11ea-a00c-acde48001122",
-                    "sortorder": 7,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "f92d58b0-6740-11ea-a00c-acde48001122",
-                    "config": {
-                        "defaultValue": null,
-                        "format": null,
-                        "label": "Diameter",
-                        "max": null,
-                        "min": null,
-                        "placeholder": "Enter number",
-                        "precision": null,
-                        "prefix": null,
-                        "step": null,
-                        "suffix": null,
-                        "width": "100%"
-                    },
-                    "id": "5ac12c8c-6755-11ea-a00c-acde48001122",
-                    "label": "Diameter",
-                    "node_id": "394b4d12-6741-11ea-a00c-acde48001122",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000008"
                 }
             ],
             "color": null,
@@ -805,7 +824,7 @@
                     "nodeid": "fbb2db82-6740-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 5
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -895,10 +914,12 @@
                     "nodeid": "f92d564e-6740-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -916,7 +937,9 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -1049,7 +1072,7 @@
                     "nodeid": "f9e76d4a-6740-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1067,7 +1090,7 @@
                     "nodeid": "fa9579e4-6740-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1085,7 +1108,7 @@
                     "nodeid": "fb2e3440-6740-11ea-a00c-acde48001122",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -1323,5 +1346,11 @@
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "7f776fddb 2021-05-27 11:59:01 -0700",
+        "os": "Darwin",
+        "os version": "20.4.0"
+    }
 }
